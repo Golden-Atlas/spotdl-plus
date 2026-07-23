@@ -510,6 +510,15 @@ class Store:
         '''
         What this run actually put in the library: its identities, joined to rows added
         at or after it started. Anything owned before that is someone else's work.
+
+        Only tracks this run did NOT skip count. A track skipped as already-owned
+        was placed by an earlier run, not this one, so it must not ride out on an
+        undo. The added_at guard alone wasn't enough, because time.time() is
+        coarse on Windows and a re-get's start could land on the exact float of
+        the earlier placement, making added_at >= started_at true by a tie. That
+        turned undo into a thief on fast runners. skip_reason IS NULL, not
+        != 'owned', because a placed track's skip_reason is NULL and NULL != x is
+        itself NULL in SQL, which would have quietly dropped every real placement.
         '''
         with self._lock:
             run = self._db.execute('SELECT started_at FROM runs WHERE id=?',
@@ -519,7 +528,8 @@ class Store:
             return self._db.execute(
                 '''SELECT l.* FROM library l
                    WHERE l.added_at >= ?
-                     AND l.identity IN (SELECT identity FROM tracks WHERE run_id=?)''',
+                     AND l.identity IN (SELECT identity FROM tracks
+                                        WHERE run_id=? AND skip_reason IS NULL)''',
                 (run['started_at'], run_id),
             ).fetchall()
 
