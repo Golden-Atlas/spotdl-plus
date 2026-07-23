@@ -1,0 +1,13 @@
+# Normalize line endings so a diff never shows a whole file changing just
+# because one contributor is on Windows and another is on Linux. Text files
+# live as LF in the repo, and each platform checks out its own ending.
+* text=auto
+
+# Binaries git must never touch.
+*.exe binary
+*.zip binary
+*.opus binary
+*.m4a binary
+*.jpg binary
+*.png binary
+*.ico binary

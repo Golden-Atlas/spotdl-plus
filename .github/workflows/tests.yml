@@ -1,0 +1,38 @@
+# Lets a stranger see the suite is green before they trust a line of this. It's
+# offline and hermetic on purpose, so no credentials, no network, and no
+# personal state, which means it runs on a fork with zero setup.
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        # windows is the shipped platform. ubuntu keeps us honest about the
+        # paths and separators, which is exactly where this kind of tool rots
+        os: [windows-latest, ubuntu-latest]
+        python: ['3.11', '3.12', '3.13', '3.14']
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+
+      - name: install
+        run: python -m pip install -e ".[dev]"
+
+      - name: lint
+        run: python -m ruff check src
+
+      - name: tests
+        run: python -m pytest -q

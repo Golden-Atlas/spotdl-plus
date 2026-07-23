@@ -1,0 +1,35 @@
+# secrets, never under any circumstances
+spotdl+.toml
+.env
+*.secret
+credentials.json
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+venv/
+.venv/
+
+# state the tool writes at runtime
+jobs.db
+jobs.db-wal
+jobs.db-shm
+
+# harvested binaries and build output, big and platform-specific
+vendor/
+
+# release archive: keep the metadata (hashes, build notes), never the binaries
+releases/**/*.exe
+releases/**/*.zip
+
+# editor and OS litter
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
