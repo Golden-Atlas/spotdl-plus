@@ -31,7 +31,13 @@ def test_setup_wizard_writes_a_valid_config_from_a_dirty_paste(tmp_path, monkeyp
     # The whole first-time story: a person pastes a secret that smuggled control
     # characters, and the wizard still writes a clean, parseable config.
     import spotdlplus.cli.setup as setup
+    # Redirect the config home into tmp_path on every platform. Windows reads
+    # LOCALAPPDATA, Linux reads XDG_CONFIG_HOME, macOS reads HOME. Setting only
+    # LOCALAPPDATA left Linux writing to the real ~/.config, so CI looked in the
+    # wrong place and this failed on ubuntu while passing on Windows.
     monkeypatch.setenv('LOCALAPPDATA', str(tmp_path))
+    monkeypatch.setenv('XDG_CONFIG_HOME', str(tmp_path))
+    monkeypatch.setenv('HOME', str(tmp_path))
 
     # Fake credentials, deliberately: a real key in a test file is a real key
     # on the internet the day the repo goes public. Shape is all that matters.
@@ -47,7 +53,9 @@ def test_setup_wizard_writes_a_valid_config_from_a_dirty_paste(tmp_path, monkeyp
 
     assert setup.run_setup_wizard() is True
 
-    written = tmp_path / 'spotdlplus' / 'config' / 'config.toml'
+    # Ask the app where it writes rather than hardcoding a layout that only
+    # matches Windows. config_path() computes the right spot per platform.
+    written = setup.config_path()
     data = tomllib.loads(written.read_text(encoding='utf-8'))   # raises if corrupt
     assert data['spotify_client_secret'] == 'sekret1234'        # DEL bytes gone
     assert data['youtube_cookies_from_browser'] == 'chrome'

@@ -94,11 +94,16 @@ def test_sqlite_other_errors_pass_through():
 # ----------------------------------------------------------------------------
 
 def test_absolute_missing_tool_is_quarantined_not_missing():
+    import os
+
     from spotdlplus.media.transcode import _run
     # an absolute path we 'resolved' to a bundled binary that isn't there =
-    # antivirus quarantine, not a PATH problem
+    # antivirus quarantine, not a PATH problem. It has to be absolute on the OS
+    # running the test. 'C:/...' is absolute on Windows but a plain relative
+    # name on Linux, which sent this down the wrong branch and turned CI red.
+    missing = 'C:/gone/ffmpeg.exe' if os.name == 'nt' else '/gone/ffmpeg.exe'
     with pytest.raises(E.ToolQuarantined):
-        _run(['C:/definitely/not/here/ffmpeg.exe', '-version'], timeout_s=5, what='x')
+        _run([missing, '-version'], timeout_s=5, what='x')
 
 
 def test_bare_name_not_on_path_is_tool_missing():

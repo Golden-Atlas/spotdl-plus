@@ -91,10 +91,9 @@ def test_ownership_does_not_leak_between_vaults(tmp_path):
 
 @pytest.mark.parametrize('command', ['get', 'plan', 'resume', 'status',
                                      'relink', 'audit', 'library', 'doctor'])
-def test_every_connected_command_advertises_out(command):
-    result = runner.invoke(app, [command, '--help'])
-    assert result.exit_code == 0
-    assert '--out' in result.output and '-o' in result.output
+def test_every_connected_command_advertises_out(command, command_options):
+    opts = command_options(command)
+    assert '--out' in opts and '-o' in opts
 
 
 def test_library_reads_the_vault_it_is_pointed_at(tmp_path):

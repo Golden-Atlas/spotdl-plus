@@ -118,11 +118,6 @@ def test_load_with_no_to_uses_configured_format(tmp_path):
     assert c.delivery in DELIVERY_TARGETS
 
 
-def test_get_and_plan_advertise_to():
-    from typer.testing import CliRunner
-    from spotdlplus.cli.main import app
-    runner = CliRunner()
+def test_get_and_plan_advertise_to(command_options):
     for cmd in ('get', 'plan'):
-        result = runner.invoke(app, [cmd, '--help'])
-        assert result.exit_code == 0
-        assert '--to' in result.output
+        assert '--to' in command_options(cmd)

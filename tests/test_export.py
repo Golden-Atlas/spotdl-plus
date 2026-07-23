@@ -160,10 +160,9 @@ def test_query_narrows_the_export(tmp_path, tone):
 runner = CliRunner()
 
 
-def test_export_help_advertises_dest_and_to():
-    result = runner.invoke(app, ['export', '--help'])
-    assert result.exit_code == 0
-    assert '--dest' in result.output and '--to' in result.output
+def test_export_help_advertises_dest_and_to(command_options):
+    opts = command_options('export')
+    assert '--dest' in opts and '--to' in opts
 
 
 def test_export_rejects_archive_as_a_target(tmp_path):
