@@ -73,4 +73,12 @@ line-length = 100
 src = ['src']
 
 [tool.ruff.lint]
+# Pin the rule set. ruff's DEFAULT select grows over versions (0.16 folded in
+# UP, I, RUF, S, B, SIM and more), and CI installs ruff unpinned, so leaning on
+# the default let a ruff release turn CI red with no code change. Some of those
+# new defaults are also wrong here, like B008 firing on the typer.Option(...)
+# defaults the CLI is built on. This is the exact set the project lints against,
+# the same one 1.2.0 shipped green under. Widen it deliberately, never by a tool
+# bump.
+select = ['E4', 'E7', 'E9', 'F']
 ignore = []
