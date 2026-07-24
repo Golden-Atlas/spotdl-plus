@@ -127,6 +127,18 @@ class Config:
     #: free key from acoustid.org/new-application, powers acoustic verification
     acoustid_api_key: str | None = None
 
+    # -- how we reach Spotify. 'app' and 'auto' use your own app key, and 'auto'
+    #: prompts for one on first run. 'anon' forces the free web-player sign-in,
+    #: which needs no account and no Premium because it signs in the way the web
+    #: player does. 'auto' will fall to the free path when you have no key in
+    #: 1.3.0. For now the free path is opt-in through 'anon'.
+    spotify_auth: str = 'auto'
+    #: When Spotify rotates the login secret and the bundled one stops working,
+    #: fetch the current one. This is the one thing the tool reaches out for
+    #: that isn't Spotify or the music itself, so it's here to switch off. Off
+    #: means a stale secret fails clean with a remedy instead of self-healing.
+    spotify_secret_autofetch: bool = True
+
     # -- provenance: field name -> where the winning value came from
     provenance: dict[str, str] = field(default_factory=dict, compare=False)
 
@@ -185,6 +197,13 @@ class Config:
                 f'youtube_cookies_from_browser {self.youtube_cookies_from_browser!r} '
                 f'is not one of {SUPPORTED_BROWSERS}',
                 context={'key': 'youtube_cookies_from_browser'},
+            )
+        if self.spotify_auth not in ('auto', 'anon', 'app'):
+            raise ConfigInvalid(
+                f"spotify_auth {self.spotify_auth!r} is not one of 'auto' (your key if "
+                "set, else the free web sign-in), 'anon' (force the free web sign-in), "
+                "'app' (force your key)",
+                context={'key': 'spotify_auth'},
             )
         _validate_template(self.template)
 
@@ -256,6 +275,8 @@ _ENV_MAP = {
     'SPOTDLPLUS_TEMPLATE': 'template',
     'SPOTIFY_CLIENT_ID': 'spotify_client_id',
     'SPOTIFY_CLIENT_SECRET': 'spotify_client_secret',
+    'SPOTDLPLUS_SPOTIFY_AUTH': 'spotify_auth',
+    'SPOTDLPLUS_SECRET_AUTOFETCH': 'spotify_secret_autofetch',
     'ACOUSTID_API_KEY': 'acoustid_api_key',
 }
 

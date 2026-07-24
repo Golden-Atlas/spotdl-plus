@@ -1,0 +1,4959 @@
+{
+ "data": {
+  "trackUnion": {
+   "__typename": "Track",
+   "associationsV3": {
+    "audioAssociations": {
+     "__typename": "TrackAudioAssociationPage",
+     "items": []
+    },
+    "videoAssociations": {
+     "totalCount": 0
+    }
+   },
+   "contentRating": {
+    "label": "NONE"
+   },
+   "duration": {
+    "totalMilliseconds": 287880
+   },
+   "id": "7c378mlmubSu7NGkLFa4sN",
+   "mediaType": "AUDIO",
+   "name": "Airbag",
+   "playability": {
+    "playable": true,
+    "reason": "PLAYABLE"
+   },
+   "playcount": "103586262",
+   "saved": false,
+   "sharingInfo": {
+    "shareId": "T4KNuyQMRKadUekqvWs_kg",
+    "shareUrl": "https://open.spotify.com/track/7c378mlmubSu7NGkLFa4sN?si=T4KNuyQMRKadUekqvWs_kg"
+   },
+   "trackNumber": 1,
+   "uri": "spotify:track:7c378mlmubSu7NGkLFa4sN",
+   "visualIdentity": {
+    "squareCoverImage": {
+     "__typename": "VisualIdentityImage",
+     "extractedColorSet": {
+      "encoreBaseSetTextColor": {
+       "alpha": 255,
+       "blue": 216,
+       "green": 192,
+       "red": 152
+      },
+      "highContrast": {
+       "backgroundBase": {
+        "alpha": 255,
+        "blue": 108,
+        "green": 87,
+        "red": 50
+       },
+       "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 73,
+        "green": 54,
+        "red": 15
+       },
+       "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textSubdued": {
+        "alpha": 255,
+        "blue": 236,
+        "green": 211,
+        "red": 170
+       }
+      },
+      "higherContrast": {
+       "backgroundBase": {
+        "alpha": 255,
+        "blue": 76,
+        "green": 56,
+        "red": 18
+       },
+       "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 111,
+        "green": 90,
+        "red": 53
+       },
+       "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textBrightAccent": {
+        "alpha": 255,
+        "blue": 96,
+        "green": 215,
+        "red": 30
+       },
+       "textSubdued": {
+        "alpha": 255,
+        "blue": 236,
+        "green": 211,
+        "red": 170
+       }
+      },
+      "minContrast": {
+       "backgroundBase": {
+        "alpha": 255,
+        "blue": 181,
+        "green": 158,
+        "red": 119
+       },
+       "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 156,
+        "green": 133,
+        "red": 95
+       },
+       "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textSubdued": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       }
+      }
+     }
+    }
+   },
+   "albumOfTrack": {
+    "copyright": {
+     "items": [
+      {
+       "text": "1997 XL Recordings Ltd",
+       "type": "C"
+      },
+      {
+       "text": "1997 XL Recordings Ltd",
+       "type": "P"
+      }
+     ],
+     "totalCount": 2
+    },
+    "courtesyLine": "",
+    "id": "6dVIqQ8qmQ5GBnJ9shOYGE",
+    "date": {
+     "isoString": "1997-05-28T00:00:00Z",
+     "precision": "DAY",
+     "year": 1997
+    },
+    "name": "OK Computer",
+    "playability": {
+     "playable": true
+    },
+    "sharingInfo": {
+     "shareId": "as2m6zCuRweIyciqwS8rZg",
+     "shareUrl": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=as2m6zCuRweIyciqwS8rZg"
+    },
+    "tracks": {
+     "items": [
+      {
+       "track": {
+        "trackNumber": 1,
+        "uri": "spotify:track:7c378mlmubSu7NGkLFa4sN"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 2,
+        "uri": "spotify:track:6LgJvl0Xdtc73RJ1mmpotq"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 3,
+        "uri": "spotify:track:2CVV8PtUYYsux8XOzWkCP0"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 4,
+        "uri": "spotify:track:0z1o5L7HJx562xZSATcIpY"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 5,
+        "uri": "spotify:track:2fuYa3Lx06QQJAm0MjztKr"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 6,
+        "uri": "spotify:track:63OQupATfueTdZMWTxW03A"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 7,
+        "uri": "spotify:track:6wnmRxEbwUK7WLyUtiRuT7"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 8,
+        "uri": "spotify:track:0gTRROuntlrPQ64W3J2Etv"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 9,
+        "uri": "spotify:track:2PDQReEXBViVwkrbQ34vd7"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 10,
+        "uri": "spotify:track:10nyNJ6zNy2YVYLrcwLccB"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 11,
+        "uri": "spotify:track:14xj58ZexBaEaHARb11Cqs"
+       }
+      },
+      {
+       "track": {
+        "trackNumber": 12,
+        "uri": "spotify:track:1UuaWKypSkIHxFZD03zw4m"
+       }
+      }
+     ],
+     "totalCount": 12
+    },
+    "type": "ALBUM",
+    "uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+    "coverArt": {
+     "extractedColors": {
+      "colorRaw": {
+       "hex": "#90B8D0"
+      }
+     },
+     "sources": [
+      {
+       "height": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+       "width": 300
+      },
+      {
+       "height": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+       "width": 64
+      },
+      {
+       "height": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+       "width": 640
+      }
+     ]
+    }
+   },
+   "firstArtist": {
+    "items": [
+     {
+      "discography": {
+       "albums": {
+        "items": [
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2025-08-13T00:00:00Z",
+              "precision": "DAY",
+              "year": 2025
+             },
+             "name": "Hail to the Thief (Live Recordings 2003-2009)",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "tBsfMnFvSsS1Hhj9RC4dYw",
+              "shareUrl": "https://open.spotify.com/album/5BLrEOEDKoDDg5T8PzdIHN?si=tBsfMnFvSsS1Hhj9RC4dYw"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:1HnY1Lu9tH5YK8DiIxho9i"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:0AHb0DwnLi0X0ByfFyei0D"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:6kU7m0qhXWMyoLw69gk3b1"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:686yl5S60Y0WdQ1mKNXbkR"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:3uKrgtys1C89WeG9gPZbYL"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:3A0ZuIcPY5rav31jdDTKwa"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:4UHl6co013uzpT1mlwZM78"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:54Bs34vTza8CqQuwY6rcg9"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:3QFK9m2LZvIQpe2bWuDfKx"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:4CQmN7ytnO5uPJgfpXcNNt"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:67zeo1agxC7EF2yeKjgJWw"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 12,
+                 "uri": "spotify:track:4uVLHKDWlYyz1ZUdAMGU0K"
+                }
+               }
+              ],
+              "totalCount": 12
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:5BLrEOEDKoDDg5T8PzdIHN",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#581020"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e022c700c64cffdee30cdd40031",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048512c700c64cffdee30cdd40031",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2732c700c64cffdee30cdd40031",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2021-11-05T00:00:00Z",
+              "precision": "DAY",
+              "year": 2021
+             },
+             "name": "KID A MNESIA",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "RA30KStgRCuXJ3zv7gT9gQ",
+              "shareUrl": "https://open.spotify.com/album/6ofEQubaL265rIW6WnCU8y?si=RA30KStgRCuXJ3zv7gT9gQ"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:62dUmjtkYOUwYOALt6pefh"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:797AyTQcqoQgqWQ1Qz184Y"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:02FcgoInOjsdFT8YdAUMwu"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:7hFmiFUYmIjELj5d0UjbVh"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:0XGxvQj8dRhGn41nvXIxN0"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:2NLpanao1S1XKsGpi1hOsT"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:6rBZtu8XpzdZT83CEp4zVT"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:7Kx2i89MjDBLaT6zwy6eM2"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:7esSFXeHFfBhDBhamtT9Nh"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:5RxiwMqRNyPYjJTobU65UT"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:5o0pk8K9JlJJXQjVzP5vSX"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:6B8qmIsuiiq2scZgUgmXfE"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:6odVNrn820IkdNB1zC3kii"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:1daHnZE6OXklKTaix7BCdc"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:08QGvTyesyJiodOHSH2QsW"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:3EXR2NUmkNPJQihjvMlLGb"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:4RMds1EdYrghXxBA3pBJeb"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:5B8noxM4Nv71LPBujOjOYz"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:6EKBZ1eARNuk560JX7bbOD"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:3eJ7eToeq7dOkTziF5neAk"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:4KoyF1BiTEJ71EZxPVfMeZ"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:0qFTFL1V5nRMw4fmEodSYQ"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:0GDeU5t1qHrcd191UOBAL1"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:3UhVihR6uX7ODreSzgmjT3"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:7ioYcj2MKilwzLKO65Aw7H"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:0IW33PjCiwBKH4IGASRzrm"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:4E6VIBxJdetyVUfQv2u360"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:3aodNsiXTJJxUyda1wKZeV"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:1lBISxqvaSesTdLXnAGFMG"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:6JUI1QpdlmcjfCFY8r2C9F"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:33qi2FS9vWhfNhATb657pt"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:71GftVXyrKMMffWZA7v0eq"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:1cjQymMOKQQNNx5x1dFcu5"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 12,
+                 "uri": "spotify:track:2ek0NaoFFgdpKjs7beIuTE"
+                }
+               }
+              ],
+              "totalCount": 34
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:6ofEQubaL265rIW6WnCU8y",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#5088B0"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02bbaaa8bf9aedb07135d2c6d3",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851bbaaa8bf9aedb07135d2c6d3",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273bbaaa8bf9aedb07135d2c6d3",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2017-06-23T00:00:00Z",
+              "precision": "DAY",
+              "year": 2017
+             },
+             "name": "OK Computer OKNOTOK 1997 2017",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "qpmFsYRhT4K-mo6hSyMC1w",
+              "shareUrl": "https://open.spotify.com/album/0tzfI6NFJqcJkWb23R3lRZ?si=qpmFsYRhT4K-mo6hSyMC1w"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:4qOeFiO7BASXEiQ23BLrYy"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:2fCSulwhjYvNxKbh67d4Pd"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:0vgSQrQMEoa6VecE9Y5Dnk"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:7IjGG1fEIbM6EjlyfYwqni"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:1CeC8kOYxUTCC2wHGtWROD"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:70VjECXPkO7APS1bAj4wEN"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:7nD7b2mbbZuDdwW03rLj3f"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:1p7qydHaybttxuW0vXmJqC"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:77iXtVIFppEW5MON7HLusO"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:39UJG380DXNHAa07pGdVgI"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:3YufhAFnp3RUyFwOEmqc3d"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 12,
+                 "uri": "spotify:track:2BJgf7Kv8VmOkaixf1yDku"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:06KakoES48DwEoAiUIdjmg"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:5HtNvKihacAXt34DDYYxBC"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:7xztI3ccyUdEYqKYABkMQM"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:6NVuMdBwKcxKDJe3ICzZLP"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:4Dq6LgGObozz8ykRgYKIGn"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:70lnEv38W5ilDiDdGjgcLP"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:6PSIzRBv7J3o6Vz8SFDKaT"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:17npanU0UU9JzglUnCoKdL"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:1JjaPYOJEb5nvmVRGbpPz1"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:36smNNHs9GP5I5BGqoDVVX"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:5uqLwDzYZ1rH5pnFkWMiM9"
+                }
+               }
+              ],
+              "totalCount": 23
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:0tzfI6NFJqcJkWb23R3lRZ",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#98C0C8"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02ee58b8ce747da91d69a862cc",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851ee58b8ce747da91d69a862cc",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273ee58b8ce747da91d69a862cc",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2016-05-08T00:00:00Z",
+              "precision": "DAY",
+              "year": 2016
+             },
+             "name": "A Moon Shaped Pool",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "vtB0LU3WTd-GzwkoFNDhqA",
+              "shareUrl": "https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg?si=vtB0LU3WTd-GzwkoFNDhqA"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:3DpuYpzkvUWXbmzCm6pfzR"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:1Rd5OVjqDAr5xC96MHt448"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:4mRSbPLnOm54ttkTYvxxSY"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:0eLVt8CGVdNnyMcfP38kDi"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:6nOsTV3cMjLh3k6Wpk468L"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:0uOeAmfdyaekD2RIGwCDwq"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:135WMJorhiGvPe50XF54D9"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:1GnFQL9XnxrXFloKm1yjuW"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:7KHQtpLpoIV3Wfu22YQT8y"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:3YQVYTkonczhXyj31HH4AK"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:07XaOyTS5hyaWiUK1Bc3bR"
+                }
+               }
+              ],
+              "totalCount": 11
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:2ix8vWvvSp2Yo7rKMiWpkg",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#535353"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0245643f5cf119cbc9d2811c22",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485145643f5cf119cbc9d2811c22",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27345643f5cf119cbc9d2811c22",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2011-10-10T00:00:00Z",
+              "precision": "DAY",
+              "year": 2011
+             },
+             "name": "TKOL RMX 1234567",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "wcfCAIX_R2OKdcykM4Fvdw",
+              "shareUrl": "https://open.spotify.com/album/566osTxDsfrtdBxPDMGufx?si=wcfCAIX_R2OKdcykM4Fvdw"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:753xFobxoB4Y7jOu160vH4"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:0Q0aM8mUZnOwOfKJ2GDbEo"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:6qLPjCTnlLr4Adl0ndl3Wi"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:5MR8vZztOvZW9LH5631fIv"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:4EUOC2daZWU4PV8e48dSFu"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:03C9U3u138C1NEd4K2NFWA"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:6Op2xt7hpi7m5MWVw4CwXA"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:5Ka7DSa5t9kUdQByXR3N9e"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:5NNZgRmH7VgMHPU92kIvZZ"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:0kFAacuqsR2QyfFxFAj2pc"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:5qQmgspG3d9zBGhqQTvEUr"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 12,
+                 "uri": "spotify:track:4yCQXEoqFq3ZvvHSvemERP"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 13,
+                 "uri": "spotify:track:5BBtgEIAE97a3VBHC4UT24"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 14,
+                 "uri": "spotify:track:5eoxyqmauOEpe0kNAzyQFX"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 15,
+                 "uri": "spotify:track:69KgmRXiL6fJv4pXKhNf8m"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 16,
+                 "uri": "spotify:track:2GO2saKwTfz8VxclnSP2sK"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 17,
+                 "uri": "spotify:track:0gy2Eqkf9dPtlkoCC3y7YA"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 18,
+                 "uri": "spotify:track:2khpCCeSM4aG0ovK4Vx8f8"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 19,
+                 "uri": "spotify:track:4YjfRIqLnw9CPZMwWLM6oi"
+                }
+               }
+              ],
+              "totalCount": 19
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:566osTxDsfrtdBxPDMGufx",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#287038"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02e68afbb10983a0e1ac92b51e",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851e68afbb10983a0e1ac92b51e",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273e68afbb10983a0e1ac92b51e",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2011-02-18T00:00:00Z",
+              "precision": "DAY",
+              "year": 2011
+             },
+             "name": "The King Of Limbs",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "kvUzLtvGRd6-BDjehWjfgw",
+              "shareUrl": "https://open.spotify.com/album/3P17levwUPzmFfLYdAK3A7?si=kvUzLtvGRd6-BDjehWjfgw"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:2HO0MwfNYxJa2zwo6vrQMT"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:0LP2TRYiYtwpV9qbvedm3Y"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:1R5qCDSE1XEiSDMkA0LAhf"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:7pEP2RXIZNXaI24enG8cyL"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:2QeutlLcJf2V1cMUUsDFT1"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:6ttYF5VadzTssGV2i1Q08T"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:05NZMYuLR71Z3qrZOUiUm2"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:2fV57qob1dYMJKEfTwHOt1"
+                }
+               }
+              ],
+              "totalCount": 8
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:3P17levwUPzmFfLYdAK3A7",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#E87878"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02a9be6a9b8b5831a4c431ab9f",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851a9be6a9b8b5831a4c431ab9f",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273a9be6a9b8b5831a4c431ab9f",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2007-12-28T00:00:00Z",
+              "precision": "DAY",
+              "year": 2007
+             },
+             "name": "In Rainbows",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "g3QzNcGOSMu3eAM1pZMQDw",
+              "shareUrl": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK?si=g3QzNcGOSMu3eAM1pZMQDw"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:4oXg7xT4ksBxHTx8PcmSXw"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:4pWIwnnqx8k01fuF95UMIg"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:35YyxFpE0ZTOoqFx5bADW8"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:4wajJ1o7jWIg62YqpkHC7S"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:5Qv2Nby1xTr9pQyjkrc94J"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:15irEKZ9D6FQqLoZ1qJ1Cx"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:02ppMPbg1OtEdHgoPqoqju"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:48X4D1FYOShPz2VF3YdfCF"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:0YJ9FWWHn9EfnN0lHwbzvV"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:4T1iiabe7G0UjWQJCY6NE2"
+                }
+               }
+              ],
+              "totalCount": 10
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:5vkqYmiPBYLaalcmjujWxK",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#500810"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851de3c04b5fc750b68899b20a9",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2007-01-01T00:00:00Z",
+              "precision": "YEAR",
+              "year": 2007
+             },
+             "name": "In Rainbows (Disk 2)",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "po9i57dcTw-TBTC22f5KtA",
+              "shareUrl": "https://open.spotify.com/album/6zTAW5oRuOmxJuUHhcQope?si=po9i57dcTw-TBTC22f5KtA"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:49oVFSbl8QdRAXktelJZWC"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:4Nckr2LBLkgNOdMadwNAxc"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:6yiSyupeI7KYdBZKJdnIUO"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:6Z467S228pBaUaAaMMBIHl"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:1mM2u5TRMdUKsIfZKEI6yJ"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:5MjwOoU9YISfMujFrjEwxu"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:0Hnik88ryug02UaEOTiXrE"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:3HPLfZhQUds6N6tZ4WiApn"
+                }
+               }
+              ],
+              "totalCount": 8
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:6zTAW5oRuOmxJuUHhcQope",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#60B058"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e024b88d5c1b3358cca2c94ec0b",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048514b88d5c1b3358cca2c94ec0b",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2734b88d5c1b3358cca2c94ec0b",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2003-06-09T00:00:00Z",
+              "precision": "DAY",
+              "year": 2003
+             },
+             "name": "Hail To the Thief",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "PaFzQ1XoTZ2CvaORa1qTlg",
+              "shareUrl": "https://open.spotify.com/album/5mzoI3VH0ZWk1pLFR6RoYy?si=PaFzQ1XoTZ2CvaORa1qTlg"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:4xkcGfpM9RwB4IiQ7yx2dB"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:6MKWCO8g2W05UcaFyfQ6Cl"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:7tFsUfrmyBvLdvIByreecz"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:32dgxT0S7Tv5p83DgT6iCT"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:42BeMThJuzIQe1oQvhDwgl"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:2dDqsUr11Mv0qhXByNfbJx"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:0dco6ZSO8vnL2fHRi10XSY"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:3qhLTNphwAepIyHJF9ZMv0"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 9,
+                 "uri": "spotify:track:5h4y42RUKwYKYWgutNwvKP"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 10,
+                 "uri": "spotify:track:6GMGuW9ne8D3CvjkJoKJeg"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 11,
+                 "uri": "spotify:track:5kDi4uwQnHM920ElxNdzUO"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 12,
+                 "uri": "spotify:track:3MW7yZK3kKtjsmJpsvBwyf"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 13,
+                 "uri": "spotify:track:0mEOPRobXw671f2H68XzoB"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 14,
+                 "uri": "spotify:track:3OHevW2cUT176DXWV0lHg9"
+                }
+               }
+              ],
+              "totalCount": 14
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:5mzoI3VH0ZWk1pLFR6RoYy",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#D84810"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e020da53e8f58e59f28a79c10c7",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048510da53e8f58e59f28a79c10c7",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2730da53e8f58e59f28a79c10c7",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2001-11-12T00:00:00Z",
+              "precision": "DAY",
+              "year": 2001
+             },
+             "name": "I Might Be Wrong",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "PbYFS6BKTi2lWMocTR5zDg",
+              "shareUrl": "https://open.spotify.com/album/1vdQ5t7iO2gC3OX7j2GFCt?si=PbYFS6BKTi2lWMocTR5zDg"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:68Wf5I47kv3PC72baPEOcg"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:042kqquPL3pPtj8NgyMYG3"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:7dZXUEXUO6SW9CZPrTGEzo"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 4,
+                 "uri": "spotify:track:30V7kc7a8R3ONCRG1ipEZc"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 5,
+                 "uri": "spotify:track:6QpvcM1VcNxxBMrxWkdgeM"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 6,
+                 "uri": "spotify:track:1F2C3VZllQC9SV32FvMalr"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 7,
+                 "uri": "spotify:track:4QhzDcpGhiWJzZSgIZQR9q"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 8,
+                 "uri": "spotify:track:62SvkbQm1wMS6KZtbtls1V"
+                }
+               }
+              ],
+              "totalCount": 8
+             },
+             "type": "ALBUM",
+             "uri": "spotify:album:1vdQ5t7iO2gC3OX7j2GFCt",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#C0A870"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0205a2f9af5f0eaed4835acf54",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485105a2f9af5f0eaed4835acf54",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27305a2f9af5f0eaed4835acf54",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         }
+        ],
+        "totalCount": 15
+       },
+       "popularReleasesAlbums": {
+        "items": [
+         {
+          "date": {
+           "isoString": "1997-05-28T00:00:00Z",
+           "precision": "DAY",
+           "year": 1997
+          },
+          "name": "OK Computer",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "XtxqOBVJRFORXLOzMq6FOQ",
+           "shareUrl": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=XtxqOBVJRFORXLOzMq6FOQ"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:7c378mlmubSu7NGkLFa4sN"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:6LgJvl0Xdtc73RJ1mmpotq"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:2CVV8PtUYYsux8XOzWkCP0"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:0z1o5L7HJx562xZSATcIpY"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:2fuYa3Lx06QQJAm0MjztKr"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:63OQupATfueTdZMWTxW03A"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:6wnmRxEbwUK7WLyUtiRuT7"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:0gTRROuntlrPQ64W3J2Etv"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:2PDQReEXBViVwkrbQ34vd7"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:10nyNJ6zNy2YVYLrcwLccB"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:14xj58ZexBaEaHARb11Cqs"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 12,
+              "uri": "spotify:track:1UuaWKypSkIHxFZD03zw4m"
+             }
+            }
+           ],
+           "totalCount": 12
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#90B8D0"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "1993-02-22T00:00:00Z",
+           "precision": "DAY",
+           "year": 1993
+          },
+          "name": "Pablo Honey",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "XBSkEcjiQA2i_hYiNry2ww",
+           "shareUrl": "https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8?si=XBSkEcjiQA2i_hYiNry2ww"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:5KZ0qobWEFl892YjIC02SE"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:70LcF31zb1H0PyJoS1Sx1r"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:5qsgK2wcodYCEbgbdCpYOG"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:3CbAW3GjkBKfErt4LLbSzr"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:46tfxn5lP7Qsbz7NHsj9iu"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:23oUaizFBFVFI5PxJrkiO5"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:2wOvYLilnDJfuPXGHGFAWZ"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:6HbWoyinLdXPZmk6xONuKw"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:0GDuL9TCO41PgsrKWBSGlm"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:13nQ70PnhDnTkYqCmdg3sy"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:30C1FoJzEhNUILsxghioGz"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 12,
+              "uri": "spotify:track:5XpcTQlNnfIQbiWE4hvYo7"
+             }
+            }
+           ],
+           "totalCount": 12
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:3gBVdu4a1MMJVMy6vwPEb8",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#F0A008"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02ec548c00d3ac2f10be73366d",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851ec548c00d3ac2f10be73366d",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "2007-12-28T00:00:00Z",
+           "precision": "DAY",
+           "year": 2007
+          },
+          "name": "In Rainbows",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "76f3D4vqSW2wSceEASp2UQ",
+           "shareUrl": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK?si=76f3D4vqSW2wSceEASp2UQ"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:4oXg7xT4ksBxHTx8PcmSXw"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:4pWIwnnqx8k01fuF95UMIg"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:35YyxFpE0ZTOoqFx5bADW8"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:4wajJ1o7jWIg62YqpkHC7S"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:5Qv2Nby1xTr9pQyjkrc94J"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:15irEKZ9D6FQqLoZ1qJ1Cx"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:02ppMPbg1OtEdHgoPqoqju"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:48X4D1FYOShPz2VF3YdfCF"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:0YJ9FWWHn9EfnN0lHwbzvV"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:4T1iiabe7G0UjWQJCY6NE2"
+             }
+            }
+           ],
+           "totalCount": 10
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:5vkqYmiPBYLaalcmjujWxK",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#500810"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851de3c04b5fc750b68899b20a9",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "1995-03-13T00:00:00Z",
+           "precision": "DAY",
+           "year": 1995
+          },
+          "name": "The Bends",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "1eitAuKwS0qPYwp0goJpuA",
+           "shareUrl": "https://open.spotify.com/album/35UJLpClj5EDrhpNIi4DFg?si=1eitAuKwS0qPYwp0goJpuA"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:37JISltgxizbDAyNEEqkTY"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:7oDFvnqXkXuiZa1sACXobj"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:2a1iMaoWQ5MnvLFBDv4qkf"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:73CKjW3vsUXRpy3NnX4H7F"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:76RAlQcfuQknnQFruYDj6Q"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:1tZcw7GtIqviL32bzaKdSo"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:1dyTcli07c77mtQK3ahUZR"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:0jyikFM0Umv0KlnrOEKtTG"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:5XuU9htN358NTMCcqRvfDV"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:6UO72VSXEONxdfLyABihs9"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:1elQc2QcyuBkI8FUIbNvcy"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 12,
+              "uri": "spotify:track:2QwObYJWyJTiozvs0RI7CF"
+             }
+            }
+           ],
+           "totalCount": 12
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#E00808"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048519293c743fa542094336c5e12",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "2000-10-02T00:00:00Z",
+           "precision": "DAY",
+           "year": 2000
+          },
+          "name": "Kid A",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "OeGVvAUYQVODWZuCr-4lIA",
+           "shareUrl": "https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7?si=OeGVvAUYQVODWZuCr-4lIA"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:2kRFrWaLWiKq48YYVdGcm8"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:3QDahKSqLwYJYQRbILdzS6"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:4Wgj6jzoI2gYlumXdYAB8U"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:2rtGaCAeYtmcIvuZsvgTf6"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:4LrfsgQ5AGouvH3PlxW2PC"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:1FoUsSi9BCTlNt2Vd7V8XA"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:0xivCtzVVrdeq32s8EnOO6"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:1W5XugQJGhnSATMI5n002M"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:4h37RgtBg9iynN3BIL5lFU"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:4SrRrB27n7fiRkQcPoKfpk"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:4aeCuOowYXJXrMZsVHZbfF"
+             }
+            }
+           ],
+           "totalCount": 11
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:6GjwtEZcfenmOf6l18N7T7",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#5888B0"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e026c7112082b63beefffe40151",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048516c7112082b63beefffe40151",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2736c7112082b63beefffe40151",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "2017-06-23T00:00:00Z",
+           "precision": "DAY",
+           "year": 2017
+          },
+          "name": "OK Computer OKNOTOK 1997 2017",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "k48LU-TLQo6sDvEF63F8Zg",
+           "shareUrl": "https://open.spotify.com/album/0tzfI6NFJqcJkWb23R3lRZ?si=k48LU-TLQo6sDvEF63F8Zg"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:4qOeFiO7BASXEiQ23BLrYy"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:2fCSulwhjYvNxKbh67d4Pd"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:0vgSQrQMEoa6VecE9Y5Dnk"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:7IjGG1fEIbM6EjlyfYwqni"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:1CeC8kOYxUTCC2wHGtWROD"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:70VjECXPkO7APS1bAj4wEN"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:7nD7b2mbbZuDdwW03rLj3f"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:1p7qydHaybttxuW0vXmJqC"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:77iXtVIFppEW5MON7HLusO"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:39UJG380DXNHAa07pGdVgI"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:3YufhAFnp3RUyFwOEmqc3d"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 12,
+              "uri": "spotify:track:2BJgf7Kv8VmOkaixf1yDku"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:06KakoES48DwEoAiUIdjmg"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:5HtNvKihacAXt34DDYYxBC"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:7xztI3ccyUdEYqKYABkMQM"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:6NVuMdBwKcxKDJe3ICzZLP"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:4Dq6LgGObozz8ykRgYKIGn"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:70lnEv38W5ilDiDdGjgcLP"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:6PSIzRBv7J3o6Vz8SFDKaT"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:17npanU0UU9JzglUnCoKdL"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:1JjaPYOJEb5nvmVRGbpPz1"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:36smNNHs9GP5I5BGqoDVVX"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:5uqLwDzYZ1rH5pnFkWMiM9"
+             }
+            }
+           ],
+           "totalCount": 23
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:0tzfI6NFJqcJkWb23R3lRZ",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#98C0C8"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02ee58b8ce747da91d69a862cc",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851ee58b8ce747da91d69a862cc",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273ee58b8ce747da91d69a862cc",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "2016-05-08T00:00:00Z",
+           "precision": "DAY",
+           "year": 2016
+          },
+          "name": "A Moon Shaped Pool",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "2AKu8II3SfWX3WiNLXfJKA",
+           "shareUrl": "https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg?si=2AKu8II3SfWX3WiNLXfJKA"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:3DpuYpzkvUWXbmzCm6pfzR"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:1Rd5OVjqDAr5xC96MHt448"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:4mRSbPLnOm54ttkTYvxxSY"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:0eLVt8CGVdNnyMcfP38kDi"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:6nOsTV3cMjLh3k6Wpk468L"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:0uOeAmfdyaekD2RIGwCDwq"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:135WMJorhiGvPe50XF54D9"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:1GnFQL9XnxrXFloKm1yjuW"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:7KHQtpLpoIV3Wfu22YQT8y"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:3YQVYTkonczhXyj31HH4AK"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:07XaOyTS5hyaWiUK1Bc3bR"
+             }
+            }
+           ],
+           "totalCount": 11
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:2ix8vWvvSp2Yo7rKMiWpkg",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#535353"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e0245643f5cf119cbc9d2811c22",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d0000485145643f5cf119cbc9d2811c22",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b27345643f5cf119cbc9d2811c22",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "2003-06-09T00:00:00Z",
+           "precision": "DAY",
+           "year": 2003
+          },
+          "name": "Hail To the Thief",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "Ng9PN4RFTiGNdzN7X5XIAw",
+           "shareUrl": "https://open.spotify.com/album/5mzoI3VH0ZWk1pLFR6RoYy?si=Ng9PN4RFTiGNdzN7X5XIAw"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:4xkcGfpM9RwB4IiQ7yx2dB"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:6MKWCO8g2W05UcaFyfQ6Cl"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:7tFsUfrmyBvLdvIByreecz"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:32dgxT0S7Tv5p83DgT6iCT"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:42BeMThJuzIQe1oQvhDwgl"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:2dDqsUr11Mv0qhXByNfbJx"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:0dco6ZSO8vnL2fHRi10XSY"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:3qhLTNphwAepIyHJF9ZMv0"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:5h4y42RUKwYKYWgutNwvKP"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:6GMGuW9ne8D3CvjkJoKJeg"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:5kDi4uwQnHM920ElxNdzUO"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 12,
+              "uri": "spotify:track:3MW7yZK3kKtjsmJpsvBwyf"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 13,
+              "uri": "spotify:track:0mEOPRobXw671f2H68XzoB"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 14,
+              "uri": "spotify:track:3OHevW2cUT176DXWV0lHg9"
+             }
+            }
+           ],
+           "totalCount": 14
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:5mzoI3VH0ZWk1pLFR6RoYy",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#D84810"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e020da53e8f58e59f28a79c10c7",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048510da53e8f58e59f28a79c10c7",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2730da53e8f58e59f28a79c10c7",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "2001-03-12T00:00:00Z",
+           "precision": "DAY",
+           "year": 2001
+          },
+          "name": "Amnesiac",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "-ATR5PxBQoa55tAWBhDY7w",
+           "shareUrl": "https://open.spotify.com/album/1HrMmB5useeZ0F5lHrMvl0?si=-ATR5PxBQoa55tAWBhDY7w"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:0tDn82XkoueVV5q9G7OUAv"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:55q3Ro66yXWi9rsEddeEN4"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:6AIq6WIkWBoRUb6kTVY8yU"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:7Hg6a7tZsVTkXnBUepjZU6"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:5JZ1jTanqLWVuThmZ6XRAc"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:521OhfIeThXJKiTyz0m883"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 7,
+              "uri": "spotify:track:09rXQjOX61UGL36z76q8OS"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 8,
+              "uri": "spotify:track:0kSDNLOdJqpGhV2vtVFWmS"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 9,
+              "uri": "spotify:track:3LpAIBGaRKXqgDzEV25Bh7"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 10,
+              "uri": "spotify:track:1irS6wtXCUUF5ytfPqOzpM"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 11,
+              "uri": "spotify:track:5xJc58mBWz68WhwU2n5seR"
+             }
+            }
+           ],
+           "totalCount": 11
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:1HrMmB5useeZ0F5lHrMvl0",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#D82020"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02863e0e305637100311c91aa7",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851863e0e305637100311c91aa7",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273863e0e305637100311c91aa7",
+             "width": 640
+            }
+           ]
+          }
+         },
+         {
+          "date": {
+           "isoString": "1992-09-21T00:00:00Z",
+           "precision": "DAY",
+           "year": 1992
+          },
+          "name": "Creep EP",
+          "playability": {
+           "playable": true
+          },
+          "sharingInfo": {
+           "shareId": "degkpRwXTdKIa7NdWgiaFA",
+           "shareUrl": "https://open.spotify.com/album/1w1LIhUSQLKew0dYwiVX2q?si=degkpRwXTdKIa7NdWgiaFA"
+          },
+          "tracks": {
+           "items": [
+            {
+             "track": {
+              "trackNumber": 1,
+              "uri": "spotify:track:58W2Mc7w77OwEYow1CGca8"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 2,
+              "uri": "spotify:track:3KWsQe7AtipXiNgdWJ27qj"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 3,
+              "uri": "spotify:track:0oZwJo5qGdWRzYzyEiMuPZ"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 4,
+              "uri": "spotify:track:4mdmGbj62zAaksYRCE5ayn"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 5,
+              "uri": "spotify:track:1XO6WiimPgd8X7znxfK7fC"
+             }
+            },
+            {
+             "track": {
+              "trackNumber": 6,
+              "uri": "spotify:track:6JpjIy1M7oxvPJ3uVdUKTe"
+             }
+            }
+           ],
+           "totalCount": 6
+          },
+          "type": "EP",
+          "uri": "spotify:album:1w1LIhUSQLKew0dYwiVX2q",
+          "coverArt": {
+           "extractedColors": {
+            "colorRaw": {
+             "hex": "#D85058"
+            }
+           },
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e023340ec817b195f40615cc647",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048513340ec817b195f40615cc647",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2733340ec817b195f40615cc647",
+             "width": 640
+            }
+           ]
+          }
+         }
+        ]
+       },
+       "singles": {
+        "items": [
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2021-11-01T00:00:00Z",
+              "precision": "DAY",
+              "year": 2021
+             },
+             "name": "Follow Me Around",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "wVArcXi-QBK-Cn9MwfDomg",
+              "shareUrl": "https://open.spotify.com/album/2vTAZfcTyauC6ZG29d6yB5?si=wVArcXi-QBK-Cn9MwfDomg"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:6zc5BnlGNETdLqsu2gK3y2"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:2vTAZfcTyauC6ZG29d6yB5",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#7090A8"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e025637612eee3adc7070675fa5",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048515637612eee3adc7070675fa5",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2735637612eee3adc7070675fa5",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2021-09-07T00:00:00Z",
+              "precision": "DAY",
+              "year": 2021
+             },
+             "name": "If You Say the Word",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "TVWbtaeqQN-cfCrocEsS6w",
+              "shareUrl": "https://open.spotify.com/album/0SvYW67Kes52rOZziDO9uC?si=TVWbtaeqQN-cfCrocEsS6w"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:3pmSHIHtJC289ImufO7uor"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:0SvYW67Kes52rOZziDO9uC",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#7090A8"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02cb009b184c887bd0fe6e09a2",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851cb009b184c887bd0fe6e09a2",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273cb009b184c887bd0fe6e09a2",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2016-11-18T00:00:00Z",
+              "precision": "DAY",
+              "year": 2016
+             },
+             "name": "Supercollider / The Butcher",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "PxPCCbKmQgCrZktFD77AOg",
+              "shareUrl": "https://open.spotify.com/album/1EPzf6NnFz2eoixDxTOMbg?si=PxPCCbKmQgCrZktFD77AOg"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:2fON3O4nCFXPu9l5YB7UqK"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:3djJOGMiyy5Bg0hKcorLXk"
+                }
+               }
+              ],
+              "totalCount": 2
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:1EPzf6NnFz2eoixDxTOMbg",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#F0A028"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0271d7b02a0bbec1a10a88c587",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485171d7b02a0bbec1a10a88c587",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27371d7b02a0bbec1a10a88c587",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2016-11-11T00:00:00Z",
+              "precision": "DAY",
+              "year": 2016
+             },
+             "name": "Harry Patch (In Memory Of)",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "Funh2uvCTtuUj2hOeWT4iQ",
+              "shareUrl": "https://open.spotify.com/album/03JVw3rc0k5AbGVIIFGtGe?si=Funh2uvCTtuUj2hOeWT4iQ"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:28o3SmoiWSaowVFpJC6zH4"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:03JVw3rc0k5AbGVIIFGtGe",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#535353"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02364b428d4c9b749e840f6de1",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851364b428d4c9b749e840f6de1",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273364b428d4c9b749e840f6de1",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2016-05-16T00:00:00Z",
+              "precision": "DAY",
+              "year": 2016
+             },
+             "name": "Spectre",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "M_ryuhhfQWeM9uvWAMGqBQ",
+              "shareUrl": "https://open.spotify.com/album/7kbhOOk0mAzdy3NukjeoXF?si=M_ryuhhfQWeM9uvWAMGqBQ"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:4Nwrh5BlZ8I31znYQULS7G"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:7kbhOOk0mAzdy3NukjeoXF",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#A8A8B0"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0229714d4269c664e606a3050b",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485129714d4269c664e606a3050b",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27329714d4269c664e606a3050b",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2016-05-06T00:00:00Z",
+              "precision": "DAY",
+              "year": 2016
+             },
+             "name": "Daydreaming",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "ElsHF5onR1eDws64HvfIag",
+              "shareUrl": "https://open.spotify.com/album/27Q0co2HcWQHrXffvt2GkI?si=ElsHF5onR1eDws64HvfIag"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:1roDUhDOM7O1tWy9C6u3pP"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:27Q0co2HcWQHrXffvt2GkI",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#535353"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02faffb14a464b3548703ccdc7",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851faffb14a464b3548703ccdc7",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273faffb14a464b3548703ccdc7",
+                "width": 640
+               }
+              ]
+             }
+            },
+            {
+             "date": {
+              "isoString": "2016-05-06T00:00:00Z",
+              "precision": "DAY",
+              "year": 2016
+             },
+             "name": "Daydreaming",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "2x9jhwVsQnibwE5YAOmyUw",
+              "shareUrl": "https://open.spotify.com/album/62tg0OzUmgWC17mQF611qu?si=2x9jhwVsQnibwE5YAOmyUw"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:2QCdoCAzuV0zcjOQysOfcv"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:62tg0OzUmgWC17mQF611qu",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#535353"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02eecd3a7ee08e329e6468f21a",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851eecd3a7ee08e329e6468f21a",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273eecd3a7ee08e329e6468f21a",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2016-05-04T00:00:00Z",
+              "precision": "DAY",
+              "year": 2016
+             },
+             "name": "Burn the Witch",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "LC3VT7W1S36t-8akpVJH5A",
+              "shareUrl": "https://open.spotify.com/album/0S89GcLQ3o1CxOa0tEhfF6?si=LC3VT7W1S36t-8akpVJH5A"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:4d8Zzjdh0LZ5UYf4Yu7VPI"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:0S89GcLQ3o1CxOa0tEhfF6",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#535353"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e029c1e72b06e426fa51e07ddb0",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048519c1e72b06e426fa51e07ddb0",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2739c1e72b06e426fa51e07ddb0",
+                "width": 640
+               }
+              ]
+             }
+            },
+            {
+             "date": {
+              "isoString": "2016-05-04T00:00:00Z",
+              "precision": "DAY",
+              "year": 2016
+             },
+             "name": "Burn the Witch",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "Jo1RcC3zQ0eps-cetNtTvQ",
+              "shareUrl": "https://open.spotify.com/album/6t9JaTDnrHxk67HDTJqxDQ?si=Jo1RcC3zQ0eps-cetNtTvQ"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:5rCPtnCl174N9OAi7mkiCA"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:6t9JaTDnrHxk67HDTJqxDQ",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#535353"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02f5af25929676113d476a18bc",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851f5af25929676113d476a18bc",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273f5af25929676113d476a18bc",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2016-01-01T00:00:00Z",
+              "precision": "YEAR",
+              "year": 2016
+             },
+             "name": "Ill Wind",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "3n6EumAzRli2iXxNl3x0nw",
+              "shareUrl": "https://open.spotify.com/album/6JE7Xs3YJNAHCggVHZNRjR?si=3n6EumAzRli2iXxNl3x0nw"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:12VTgfn13lUx12D7MOYfsn"
+                }
+               }
+              ],
+              "totalCount": 1
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:6JE7Xs3YJNAHCggVHZNRjR",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#284058"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02d9caa47575207822f9ce40f4",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851d9caa47575207822f9ce40f4",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273d9caa47575207822f9ce40f4",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2011-12-19T00:00:00Z",
+              "precision": "DAY",
+              "year": 2011
+             },
+             "name": "The Daily Mail / Staircase",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "5f5k4s10RsKF_9OlwFpC2w",
+              "shareUrl": "https://open.spotify.com/album/1tzOmGx4BW3NwLwnCzYfCR?si=5f5k4s10RsKF_9OlwFpC2w"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:0Kwg1epDRFLyXFq09t7MtB"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:5e9atKlmsuJYrz3RGWCoS6"
+                }
+               }
+              ],
+              "totalCount": 2
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:1tzOmGx4BW3NwLwnCzYfCR",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#535353"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02e10d5e8fe2fcf59ddbc92fc2",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851e10d5e8fe2fcf59ddbc92fc2",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273e10d5e8fe2fcf59ddbc92fc2",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "releases": {
+           "items": [
+            {
+             "date": {
+              "isoString": "2011-11-18T00:00:00Z",
+              "precision": "DAY",
+              "year": 2011
+             },
+             "name": "TKOL RMX 8",
+             "playability": {
+              "playable": true
+             },
+             "sharingInfo": {
+              "shareId": "BcnwUEHwTwSCFaiqB4ovKQ",
+              "shareUrl": "https://open.spotify.com/album/0lxJjvbbikKyKdvoncI2Vu?si=BcnwUEHwTwSCFaiqB4ovKQ"
+             },
+             "tracks": {
+              "items": [
+               {
+                "track": {
+                 "trackNumber": 1,
+                 "uri": "spotify:track:43GxjTyWkpyZFGfh6d1MPj"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 2,
+                 "uri": "spotify:track:6AmOC6sINpSmWPmQurDgR8"
+                }
+               },
+               {
+                "track": {
+                 "trackNumber": 3,
+                 "uri": "spotify:track:27Ctri8V6RhHUnKHcK3ogb"
+                }
+               }
+              ],
+              "totalCount": 3
+             },
+             "type": "SINGLE",
+             "uri": "spotify:album:0lxJjvbbikKyKdvoncI2Vu",
+             "coverArt": {
+              "extractedColors": {
+               "colorRaw": {
+                "hex": "#535353"
+               }
+              },
+              "sources": [
+               {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02980f28d6fb0ea25981427bca",
+                "width": 300
+               },
+               {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851980f28d6fb0ea25981427bca",
+                "width": 64
+               },
+               {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273980f28d6fb0ea25981427bca",
+                "width": 640
+               }
+              ]
+             }
+            }
+           ]
+          }
+         }
+        ],
+        "totalCount": 30
+       },
+       "topTracks": {
+        "items": [
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "Pablo Honey",
+            "uri": "spotify:album:3gBVdu4a1MMJVMy6vwPEb8",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#F0A008"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e02ec548c00d3ac2f10be73366d",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d00004851ec548c00d3ac2f10be73366d",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 1
+            }
+           },
+           "contentRating": {
+            "label": "EXPLICIT"
+           },
+           "duration": {
+            "totalMilliseconds": 238640
+           },
+           "id": "70LcF31zb1H0PyJoS1Sx1r",
+           "name": "Creep",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "3021836287",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/f3d864283774529a2378100c912bfacb614db751"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:70LcF31zb1H0PyJoS1Sx1r"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "OK Computer",
+            "uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#90B8D0"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 0
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 299560
+           },
+           "id": "2fuYa3Lx06QQJAm0MjztKr",
+           "name": "Let Down",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "873017823",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/d47a5b024207667a80dc36b5852bf851d2f35773"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:2fuYa3Lx06QQJAm0MjztKr"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "OK Computer",
+            "uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#90B8D0"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 1
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 229120
+           },
+           "id": "10nyNJ6zNy2YVYLrcwLccB",
+           "name": "No Surprises",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "1404968920",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/969161ef645e3e89a4ee8a0274013dae480a9e2d"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:10nyNJ6zNy2YVYLrcwLccB"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "In Rainbows",
+            "uri": "spotify:album:5vkqYmiPBYLaalcmjujWxK",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#500810"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d00004851de3c04b5fc750b68899b20a9",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 0
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 228746
+           },
+           "id": "5Qv2Nby1xTr9pQyjkrc94J",
+           "name": "All I Need",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "479573980",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/6651c3f7d1f36876785355e7094b1f57212ce4fd"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:5Qv2Nby1xTr9pQyjkrc94J"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "OK Computer",
+            "uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#90B8D0"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 1
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 264066
+           },
+           "id": "63OQupATfueTdZMWTxW03A",
+           "name": "Karma Police",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "881749097",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/0c770be37583bbf7f7da3febeb2bf11d1a621a80"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:63OQupATfueTdZMWTxW03A"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "The Bends",
+            "uri": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#E00808"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d000048519293c743fa542094336c5e12",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 1
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 290706
+           },
+           "id": "73CKjW3vsUXRpy3NnX4H7F",
+           "name": "Fake Plastic Trees",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "588852488",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/3ee9bf807973f08aeb2e2b7578e0e4b8e58e513e"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:73CKjW3vsUXRpy3NnX4H7F"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "OK Computer",
+            "uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#90B8D0"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 0
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 267186
+           },
+           "id": "0z1o5L7HJx562xZSATcIpY",
+           "name": "Exit Music (For A Film)",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "489730193",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/b0df587478b3aab22ebb6ed8c8178cfe0307e61c"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:0z1o5L7HJx562xZSATcIpY"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "In Rainbows",
+            "uri": "spotify:album:5vkqYmiPBYLaalcmjujWxK",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#500810"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d00004851de3c04b5fc750b68899b20a9",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 1
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 248893
+           },
+           "id": "0YJ9FWWHn9EfnN0lHwbzvV",
+           "name": "Jigsaw Falling Into Place",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "442038822",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/20658b82bd25e6c1c5769a73e30cffdb0469dd58"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:0YJ9FWWHn9EfnN0lHwbzvV"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "The Bends",
+            "uri": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#E00808"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d000048519293c743fa542094336c5e12",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 1
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 257480
+           },
+           "id": "2a1iMaoWQ5MnvLFBDv4qkf",
+           "name": "High and Dry",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "673030393",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/ae7ca2c6a3471d6b591ad0d1d0f83dc311afd1c4"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:2a1iMaoWQ5MnvLFBDv4qkf"
+          }
+         },
+         {
+          "track": {
+           "albumOfTrack": {
+            "name": "In Rainbows",
+            "uri": "spotify:album:5vkqYmiPBYLaalcmjujWxK",
+            "coverArt": {
+             "extractedColors": {
+              "colorRaw": {
+               "hex": "#500810"
+              }
+             },
+             "sources": [
+              {
+               "height": 300,
+               "url": "https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9",
+               "width": 300
+              },
+              {
+               "height": 64,
+               "url": "https://i.scdn.co/image/ab67616d00004851de3c04b5fc750b68899b20a9",
+               "width": 64
+              },
+              {
+               "height": 640,
+               "url": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+               "width": 640
+              }
+             ]
+            }
+           },
+           "artists": {
+            "items": [
+             {
+              "profile": {
+               "name": "Radiohead"
+              },
+              "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+             }
+            ]
+           },
+           "associationsV3": {
+            "audioAssociations": {
+             "__typename": "TrackAudioAssociationPage",
+             "items": []
+            },
+            "videoAssociations": {
+             "totalCount": 0
+            }
+           },
+           "contentRating": {
+            "label": "NONE"
+           },
+           "duration": {
+            "totalMilliseconds": 318186
+           },
+           "id": "4wajJ1o7jWIg62YqpkHC7S",
+           "name": "Weird Fishes / Arpeggi",
+           "playability": {
+            "playable": true
+           },
+           "playcount": "397586184",
+           "previews": {
+            "audioPreviews": {
+             "items": [
+              {
+               "url": "https://p.scdn.co/mp3-preview/84d22bb712ca5a5cc6d7f82ef097977e6b6d63e0"
+              }
+             ]
+            }
+           },
+           "uri": "spotify:track:4wajJ1o7jWIg62YqpkHC7S"
+          }
+         }
+        ]
+       }
+      },
+      "id": "4Z8W4fKeB5YxbusRsdQVPb",
+      "profile": {
+       "name": "Radiohead"
+      },
+      "relatedContent": {
+       "relatedArtists": {
+        "items": [
+         {
+          "id": "3yY2gUcIsjMr8hjo51PoJ8",
+          "profile": {
+           "name": "The Smiths"
+          },
+          "uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 970,
+              "url": "https://i.scdn.co/image/4bf08a9e6eea088b20d4092d1322bbd3f39ff9af",
+              "width": 640
+             },
+             {
+              "height": 97,
+              "url": "https://i.scdn.co/image/d3a2542f2811b5b01ee3483ec7c193f72a882ea1",
+              "width": 64
+             },
+             {
+              "height": 303,
+              "url": "https://i.scdn.co/image/bd4c7f5ff2c5c4385604e60c71eac1dd498ddbd9",
+              "width": 200
+             },
+             {
+              "height": 1516,
+              "url": "https://i.scdn.co/image/481b980af463122013e4578c08fb8c5cbfaed1e9",
+              "width": 1000
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "6olE6TJLqED3rqDCT0FyPh",
+          "profile": {
+           "name": "Nirvana"
+          },
+          "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 677,
+              "url": "https://i.scdn.co/image/a4e10b79a642e9891383448cbf37d7266a6883d6",
+              "width": 640
+             },
+             {
+              "height": 68,
+              "url": "https://i.scdn.co/image/e797ad36d56c3fc8fa06c6fe91263a15bf8391b8",
+              "width": 64
+             },
+             {
+              "height": 211,
+              "url": "https://i.scdn.co/image/42ae0f180f16e2f21c1f2212717fc436f5b95451",
+              "width": 200
+             },
+             {
+              "height": 1057,
+              "url": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b",
+              "width": 1000
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "3nnQpaTvKb5jCQabZefACI",
+          "profile": {
+           "name": "Jeff Buckley"
+          },
+          "uri": "spotify:artist:3nnQpaTvKb5jCQabZefACI",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 973,
+              "url": "https://i.scdn.co/image/248e8ddbf1be229fd0c31722fb0a01b31b01f474",
+              "width": 640
+             },
+             {
+              "height": 97,
+              "url": "https://i.scdn.co/image/2a93d455e8981b0e1f6f1918b934c454c1243b20",
+              "width": 64
+             },
+             {
+              "height": 304,
+              "url": "https://i.scdn.co/image/8822f816dea6ea25c70e942763c9812c6271e516",
+              "width": 200
+             },
+             {
+              "height": 1520,
+              "url": "https://i.scdn.co/image/67779606c7f151618a28f62b1d24fb514d39dacf",
+              "width": 1000
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "7Ln80lUS6He07XvHI8qqHH",
+          "profile": {
+           "name": "Arctic Monkeys"
+          },
+          "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f1787da39dea0a72f581535fb11f",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab676161000051747da39dea0a72f581535fb11f",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "6zvul52xwTWzilBZl6BUbT",
+          "profile": {
+           "name": "Pixies"
+          },
+          "uri": "spotify:artist:6zvul52xwTWzilBZl6BUbT",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb419ffe5eb82b7460c76a986a",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178419ffe5eb82b7460c76a986a",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174419ffe5eb82b7460c76a986a",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "7bu3H8JO7d0UbMoVzbo70s",
+          "profile": {
+           "name": "The Cure"
+          },
+          "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebdd427c765c409ec02dc3a868",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178dd427c765c409ec02dc3a868",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174dd427c765c409ec02dc3a868",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "7t0rwkOPGlDPEhaOcVtOt9",
+          "profile": {
+           "name": "The Cranberries"
+          },
+          "uri": "spotify:artist:7t0rwkOPGlDPEhaOcVtOt9",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb9d7ed10720669900a0649c98",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f1789d7ed10720669900a0649c98",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab676161000051749d7ed10720669900a0649c98",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "37w38cCSGgKLdayTRjna4W",
+          "profile": {
+           "name": "Mazzy Star"
+          },
+          "uri": "spotify:artist:37w38cCSGgKLdayTRjna4W",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6772690000dd2293b4c6192035c98af64d4da3",
+              "width": 640
+             },
+             {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67726900008f7493b4c6192035c98af64d4da3",
+              "width": 64
+             },
+             {
+              "height": 200,
+              "url": "https://i.scdn.co/image/ab6772690000bac393b4c6192035c98af64d4da3",
+              "width": 200
+             },
+             {
+              "height": 1000,
+              "url": "https://i.scdn.co/image/ab6772690000c46c93b4c6192035c98af64d4da3",
+              "width": 1000
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "5INjqkS1o8h1imAzPqGZBb",
+          "profile": {
+           "name": "Tame Impala"
+          },
+          "uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178e412a782245eb20d9626c601",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174e412a782245eb20d9626c601",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "3AA28KZvwAUcZuOKwyblJQ",
+          "profile": {
+           "name": "Gorillaz"
+          },
+          "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebdd5b57b40cf2aaeccd07835e",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178dd5b57b40cf2aaeccd07835e",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174dd5b57b40cf2aaeccd07835e",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "3jOstUTkEu2JkjvRdBA5Gu",
+          "profile": {
+           "name": "Weezer"
+          },
+          "uri": "spotify:artist:3jOstUTkEu2JkjvRdBA5Gu",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebd0d06f3b5f3cb05fc657f12c",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178d0d06f3b5f3cb05fc657f12c",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174d0d06f3b5f3cb05fc657f12c",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "1tqZaCwM57UFKjWoYwMLrw",
+          "profile": {
+           "name": "The Cardigans"
+          },
+          "uri": "spotify:artist:1tqZaCwM57UFKjWoYwMLrw",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb4458cf04006a95a1afa067f0",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f1784458cf04006a95a1afa067f0",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab676161000051744458cf04006a95a1afa067f0",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "0epOFNiUfyON9EYx7Tpr6V",
+          "profile": {
+           "name": "The Strokes"
+          },
+          "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb98856eea770468af6dd999d9",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f17898856eea770468af6dd999d9",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab6761610000517498856eea770468af6dd999d9",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "1QAJqy2dA3ihHBFIHRphZj",
+          "profile": {
+           "name": "Cigarettes After Sex"
+          },
+          "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb2e08fd554de35c3ef1db7fd9",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f1782e08fd554de35c3ef1db7fd9",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab676161000051742e08fd554de35c3ef1db7fd9",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "2DaxqgrOhkeH0fpeiQq2f4",
+          "profile": {
+           "name": "Oasis"
+          },
+          "uri": "spotify:artist:2DaxqgrOhkeH0fpeiQq2f4",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebb4ddbc39706ef0f2ae0f7c9b",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178b4ddbc39706ef0f2ae0f7c9b",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174b4ddbc39706ef0f2ae0f7c9b",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "3Sz7ZnJQBIHsXLUSo0OQtM",
+          "profile": {
+           "name": "Mac DeMarco"
+          },
+          "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebc9aca5b6d4c528caf75e8a1d",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178c9aca5b6d4c528caf75e8a1d",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174c9aca5b6d4c528caf75e8a1d",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "40Yq4vzPs9VNUrIBG5Jr2i",
+          "profile": {
+           "name": "The Smashing Pumpkins"
+          },
+          "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb2897dd777bbd8e3f23e49c99",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f1782897dd777bbd8e3f23e49c99",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab676161000051742897dd777bbd8e3f23e49c99",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "5jTtGLk1mGFMY5lQOvJYUj",
+          "profile": {
+           "name": "bôa"
+          },
+          "uri": "spotify:artist:5jTtGLk1mGFMY5lQOvJYUj",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebd699423e4d35ff7a7fb66b7d",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178d699423e4d35ff7a7fb66b7d",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174d699423e4d35ff7a7fb66b7d",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "56ZTgzPBDge0OvCGgMO3OY",
+          "profile": {
+           "name": "Beach House"
+          },
+          "uri": "spotify:artist:56ZTgzPBDge0OvCGgMO3OY",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebb3e38a46a56a423d8f741c09",
+              "width": 640
+             },
+             {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178b3e38a46a56a423d8f741c09",
+              "width": 160
+             },
+             {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174b3e38a46a56a423d8f741c09",
+              "width": 320
+             }
+            ]
+           }
+          }
+         },
+         {
+          "id": "2cGwlqi3k18jFpUyTrsR84",
+          "profile": {
+           "name": "The Verve"
+          },
+          "uri": "spotify:artist:2cGwlqi3k18jFpUyTrsR84",
+          "visuals": {
+           "avatarImage": {
+            "sources": [
+             {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6772690000dd222fb11ff7658def8d8a52957c",
+              "width": 640
+             },
+             {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67726900008f742fb11ff7658def8d8a52957c",
+              "width": 64
+             },
+             {
+              "height": 200,
+              "url": "https://i.scdn.co/image/ab6772690000bac32fb11ff7658def8d8a52957c",
+              "width": 200
+             },
+             {
+              "height": 1000,
+              "url": "https://i.scdn.co/image/ab6772690000c46c2fb11ff7658def8d8a52957c",
+              "width": 1000
+             }
+            ]
+           }
+          }
+         }
+        ],
+        "totalCount": 40
+       }
+      },
+      "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+      "visuals": {
+       "avatarImage": {
+        "sources": [
+         {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59",
+          "width": 640
+         },
+         {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1784104fbd80f1f795728abbd59",
+          "width": 160
+         },
+         {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051744104fbd80f1f795728abbd59",
+          "width": 320
+         }
+        ]
+       }
+      }
+     }
+    ],
+    "totalCount": 1
+   },
+   "otherArtists": {
+    "items": []
+   }
+  }
+ }
+}

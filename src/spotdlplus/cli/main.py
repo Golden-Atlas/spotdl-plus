@@ -29,12 +29,14 @@ from ..net.http import HttpClient
 from ..net.ytenv import probe_environment
 from ..pipeline.resolve import ResolutionCandidate
 from ..pipeline.run import FREE_SPACE_RESERVE_BYTES, resume_run, run_source
+from ..providers.factory import build_spotify_provider, use_web_path
 from ..providers.musicbrainz import MusicBrainzProvider
 from ..providers.spotify import (
     SpotifyProvider,
     parse_spotify_ref,
     spotify_token_provider,
 )
+from ..providers.spotify_web import SpotifyWebProvider
 from ._win import harden_console
 from .render import human_bytes, pick_renderer
 
@@ -57,13 +59,15 @@ app = typer.Typer(
         'The Music Archive Pipeline\n\n'
         'Point it at anything on Spotify, an artist, an album, a playlist, a track, '
         'or just a name, and it builds an organized, fully tagged, verified library. '
-        'Runs are resumable, matches are explainable, and every failure carries its '
-        'own remedy. If something breaks, it can tell you why right away.\n\n'
+        'Runs resume to the track, matches explain themselves, and every failure '
+        'carries the one command that clears it.\n\n'
         '[bold]Quick start:[/bold]\n\n'
-        '  spotdlp doctor                     check that everything is ready\n'
+        '  spotdlp setup                      connect Spotify, pick a music folder\n'
+        '  spotdlp doctor                     check everything is ready\n'
         '  spotdlp get "artist:Duster"        download a whole discography\n'
         '  spotdlp get <spotify url>          or anything a URL points at\n'
-        '  spotdlp audit --fix                prove the library is healthy'
+        '  spotdlp audit --fix                prove the library is healthy\n\n'
+        'Run "spotdlp -v" for every command, or "spotdlp <command> -h" for its flags.'
     ),
     epilog=(
         '[bold]Typical workflows:[/bold]\n\n'
@@ -93,6 +97,73 @@ REFERENCE_PLAYLIST = '6c6QIG9zKK121v5XWamwdv'
 PANEL_GET = 'Getting music'
 PANEL_TRUST = 'Trust & repair'
 PANEL_DIAG = 'When something needs explaining'
+
+#: One tight line per command for "spotdlp -v", on top of the fuller help each
+#: command prints on its own. Verb first, scannable.
+_COMMAND_BLURB = {
+    'setup': 'Connect Spotify and pick a music folder. First-time setup.',
+    'welcome': 'The friendly first run.',
+    'get': 'Resolve a source, show the plan, download it.',
+    'plan': 'Everything but the download. Price it before you commit.',
+    'sync': 'Bring a source up to date. Optionally drop what left it.',
+    'resume': 'Pick the most recent parked run up where it stopped.',
+    'export': 'Copy the library into a device-ready format. Never re-downloads.',
+    'audit': 'Make every owned file prove itself. "--fix" repairs what it can.',
+    'relink': 'Override a match by hand. See every candidate, or force a URL.',
+    'library': 'The per-artist roster. "--verify" checks it is all on disk.',
+    'cleanup': 'Housekeeping in one verb. Cache, bookkeeping, empty folders.',
+    'tidy': 'Compact the run database. The database slice of "cleanup" alone.',
+    'move-library': 'Move the whole library. Bookkeeping follows, nothing re-downloads.',
+    'undo': 'Take back the most recent run whole.',
+    'uninstall': 'Remove what spotdl+ put here, and nothing else.',
+    'doctor': 'Check everything up front, before a run can die on it.',
+    'status': 'Where the most recent run stands.',
+    'stats': 'The library in numbers. Tracks, size, hours, formats.',
+    'search': 'Find what you own. Instant, offline, never touches the network.',
+    'report': 'One pasteable block about the last run, for when it broke.',
+    'explain': 'What an error code means and what to do about it.',
+    'version': 'Which spotdlp this is.',
+}
+
+
+def _print_command_reference() -> None:
+    '''Every command, grouped the way "--help" groups them. What "-v" prints.'''
+    panel_of = {
+        (cmd.name or cmd.callback.__name__.replace('_', '-')): (cmd.rich_help_panel or PANEL_DIAG)
+        for cmd in app.registered_commands
+    }
+    # Curated order first, then anything not yet blurbed, so nothing is dropped
+    # and a new command still shows up (just at the end, until it gets a line).
+    ordered = [n for n in _COMMAND_BLURB if n in panel_of] + [n for n in panel_of if n not in _COMMAND_BLURB]
+    grouped: dict[str, list[str]] = {}
+    for name in ordered:
+        grouped.setdefault(panel_of[name], []).append(name)
+    console.print('\n[bold]spotdlp[/] [grey58]- every command[/]')
+    for panel in (PANEL_GET, PANEL_TRUST, PANEL_DIAG):
+        names = grouped.get(panel, [])
+        if not names:
+            continue
+        console.print(f'\n[bold]{panel}[/]')
+        for name in names:
+            console.print(f'  [cyan]{name:<13}[/] [grey58]{_COMMAND_BLURB.get(name, "")}[/]')
+    console.print('\n[grey58]Run "spotdlp <command> -h" for the flags on any one of these.[/]')
+
+
+def _commands_eager(value: bool) -> None:
+    if value:
+        _print_command_reference()
+        raise typer.Exit()
+
+
+@app.callback()
+def _root(
+    commands: bool = typer.Option(
+        False, '-v', '--commands', is_eager=True, callback=_commands_eager,
+        help='List every command, grouped by what you are doing.'),
+) -> None:
+    # Exists only to hang the global -v flag on the app. The help text itself
+    # lives on typer.Typer(help=...) above, so this stays bodiless on purpose.
+    pass
 
 
 def _fail(err: E.SpotdlPlusError) -> 'typer.Exit':
@@ -164,8 +235,11 @@ def _load(out: Path | None = None, **overrides) -> Config:
     return load_config(overrides=clean)
 
 
-def _wire(cfg: Config) -> tuple[HttpClient, SpotifyProvider, MusicBrainzProvider, Store]:
-    if not cfg.has_spotify_credentials():
+def _wire(cfg: Config) -> tuple[
+        HttpClient, SpotifyProvider | SpotifyWebProvider, MusicBrainzProvider, Store]:
+    # The free web sign-in needs no key, so the credential prompt is only for the
+    # app path. 'auto' with no key resolves to web and walks straight past this.
+    if not use_web_path(cfg) and not cfg.has_spotify_credentials():
         # First run in a real terminal? Walk them through it instead of jsut
         # failing. This is the whole friend-can-use-it story. Scripts and CI
         # have no tty, so they still get the plain typed error below.
@@ -208,8 +282,7 @@ def _wire(cfg: Config) -> tuple[HttpClient, SpotifyProvider, MusicBrainzProvider
                 f'youtube_cookies_from_browser, to silence this.[/]')
             set_cookie_source(browser=None, cookiefile=None)
     http = HttpClient(version=__version__)
-    auth = spotify_token_provider(http, cfg.spotify_client_id, cfg.spotify_client_secret)
-    return http, SpotifyProvider(http, auth), MusicBrainzProvider(http), Store(cfg.db_path)
+    return http, build_spotify_provider(cfg, http), MusicBrainzProvider(http), Store(cfg.db_path)
 
 
 def _interactive_pick(cands: list[ResolutionCandidate]) -> int | None:
@@ -1023,6 +1096,11 @@ def doctor(
         None, '--playlist',
         help='with --network: read this playlist with your Spotify credentials. '
              'Use it when a playlist gets refused but everything else looks fine'),
+    spotify_web: bool = typer.Option(
+        False, '--spotify-web',
+        help='deep-check the free Spotify sign-in leg by leg (session, token, '
+             'client-token, and a live read), so you can see exactly what works '
+             'and what broke without an app key'),
     out: Path = OutOption,
 ) -> None:
     '''Check everything up front, so a run never dies at track 3 over something we could have caught here.'''
@@ -1213,12 +1291,14 @@ def doctor(
                                     f' [bold red]✗ [{err.code}][/] playlist access')
                                 if refused:
                                     console.print(
-                                        '   [grey58]Albums work but playlists are refused, '
-                                        'so this is your Spotify app rather than your '
-                                        'network. Open developer.spotify.com/dashboard, '
-                                        'check the app is set up for the Web API, and give '
-                                        'it a redirect URI. A fresh app plus "spotdlp '
-                                        'setup" clears it.[/]')
+                                        '   [grey58]Albums work but this public test playlist '
+                                        'is refused, so it is your Spotify app, not your '
+                                        'network and not the playlist itself. Spotify stopped '
+                                        'granting playlist access to apps created after '
+                                        'February 2026; album and track reads still work, '
+                                        'which is the tell. A fresh app is the cause, not the '
+                                        'fix. Use a Spotify app made before then, or the free '
+                                        'web-player sign-in that needs no app at all.[/]')
                                 else:
                                     console.print(f'   [grey58]{err.remedy}[/]')
                                 hard_fail = True
@@ -1232,6 +1312,69 @@ def doctor(
                                     f'link>" to be sure[/]')
             finally:
                 sp_http.close()
+
+    if spotify_web:
+        # The deep free-path check. Runs every leg of the anonymous sign-in on
+        # its own, then does a real album read to prove the token actually pulls
+        # data. This is the thing that closes the open question about whether the
+        # keyless path works on a given network, and it stays as the permanent
+        # early warning for the day Spotify changes something.
+        from ..net.spotify_web import WebPlayerAuth
+        console.print('\n[bold]free Spotify sign-in[/]')
+        auth = WebPlayerAuth(autofetch=cfg.spotify_secret_autofetch)
+        try:
+            legs = auth.diagnose()
+            for leg in legs:
+                mark = '[green]✓[/]' if leg.ok else '[bold red]✗[/]'
+                console.print(f' {mark} {leg.name:<13} [grey58]{leg.detail}[/]')
+                if not leg.ok:
+                    hard_fail = True
+            if legs and all(leg.ok for leg in legs):
+                console.print(' [grey58]… reading a real album and playlist to confirm the token pulls data …[/]')
+                web_http = HttpClient(version=__version__)
+                try:
+                    from ..net.spotify_pathfinder import PathfinderClient
+                    from ..providers.spotify_web import SpotifyWebProvider
+                    # Reuse the auth we just diagnosed, and read over the pathfinder
+                    # API, the exact path a keyless run takes. No /v1: those reads
+                    # are gone, which is the whole reason this path exists.
+                    sp = SpotifyWebProvider(
+                        PathfinderClient(web_http, auth, refresher=auth.latest_query_hashes))
+                    album = sp.album('6dVIqQ8qmQ5GBnJ9shOYGE')
+                    tracks = list(sp.album_tracks('6dVIqQ8qmQ5GBnJ9shOYGE'))
+                    if tracks:
+                        console.print(f' [green]✓[/] album read    '
+                                      f'[grey58]pulled {album.title!r}, {len(tracks)} tracks[/]')
+                    else:
+                        console.print(' [bold red]✗[/] album read    [grey58]the read came back empty[/]')
+                        hard_fail = True
+                    # Playlists are exactly what a newly-created app can no longer
+                    # read, so prove them explicitly. This is the whole point.
+                    head = sp.playlist(REFERENCE_PLAYLIST)
+                    n = sum(1 for _ in sp.playlist_tracks(REFERENCE_PLAYLIST))
+                    console.print(f' [green]✓[/] playlist read [grey58]read {head.get("name")!r}, '
+                                  f'{n} track(s)[/]')
+                    if tracks:
+                        console.print(' [green]the free Spotify path works on this network. '
+                                      'No app, no Premium.[/]')
+                        console.print(' [grey58]it keys on Spotify ids rather than ISRCs, so cross-'
+                                      'release dedupe is lighter than with your own key.[/]')
+                except E.RateLimited:
+                    # The legs above passed, so the sign-in itself works. A throttle
+                    # on the data reads is pace-able, not a broken path, so it warns.
+                    console.print(
+                        ' [yellow]⚠[/] live read     '
+                        '[grey58]the sign-in works, every leg above passed. Spotify is '
+                        'throttling the data reads for a moment; wait a little and run '
+                        'this again.[/]')
+                except E.SpotdlPlusError as err:
+                    console.print(f' [bold red]✗ [{err.code}][/] live read')
+                    console.print(f'   [grey58]{err.remedy}[/]')
+                    hard_fail = True
+                finally:
+                    web_http.close()
+        finally:
+            auth.close()
 
     raise typer.Exit(1 if hard_fail else 0)
 

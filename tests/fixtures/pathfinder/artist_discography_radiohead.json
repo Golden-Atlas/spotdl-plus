@@ -1,0 +1,525 @@
+{
+ "data": {
+  "artistUnion": {
+   "__typename": "Artist",
+   "discography": {
+    "all": {
+     "items": [
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e022c700c64cffdee30cdd40031",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048512c700c64cffdee30cdd40031",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2732c700c64cffdee30cdd40031",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2025-08-13T00:00:00Z",
+           "precision": "DAY",
+           "year": 2025
+          },
+          "id": "5BLrEOEDKoDDg5T8PzdIHN",
+          "name": "Hail to the Thief (Live Recordings 2003-2009)",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "h97tCl4QQaW9cQkAxjXrAg",
+           "shareUrl": "https://open.spotify.com/album/5BLrEOEDKoDDg5T8PzdIHN?si=h97tCl4QQaW9cQkAxjXrAg"
+          },
+          "tracks": {
+           "totalCount": 12
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:5BLrEOEDKoDDg5T8PzdIHN"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02bbaaa8bf9aedb07135d2c6d3",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851bbaaa8bf9aedb07135d2c6d3",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273bbaaa8bf9aedb07135d2c6d3",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2021-11-05T00:00:00Z",
+           "precision": "DAY",
+           "year": 2021
+          },
+          "id": "6ofEQubaL265rIW6WnCU8y",
+          "name": "KID A MNESIA",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "XMdb5MNTQCWGves162pfug",
+           "shareUrl": "https://open.spotify.com/album/6ofEQubaL265rIW6WnCU8y?si=XMdb5MNTQCWGves162pfug"
+          },
+          "tracks": {
+           "totalCount": 34
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:6ofEQubaL265rIW6WnCU8y"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e025637612eee3adc7070675fa5",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048515637612eee3adc7070675fa5",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2735637612eee3adc7070675fa5",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2021-11-01T00:00:00Z",
+           "precision": "DAY",
+           "year": 2021
+          },
+          "id": "2vTAZfcTyauC6ZG29d6yB5",
+          "name": "Follow Me Around",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "VqOplXuPQtKKnWcz0p9ljw",
+           "shareUrl": "https://open.spotify.com/album/2vTAZfcTyauC6ZG29d6yB5?si=VqOplXuPQtKKnWcz0p9ljw"
+          },
+          "tracks": {
+           "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:2vTAZfcTyauC6ZG29d6yB5"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02cb009b184c887bd0fe6e09a2",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851cb009b184c887bd0fe6e09a2",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273cb009b184c887bd0fe6e09a2",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2021-09-07T00:00:00Z",
+           "precision": "DAY",
+           "year": 2021
+          },
+          "id": "0SvYW67Kes52rOZziDO9uC",
+          "name": "If You Say the Word",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "OYCs7w1CRWaACWQd4uSFCg",
+           "shareUrl": "https://open.spotify.com/album/0SvYW67Kes52rOZziDO9uC?si=OYCs7w1CRWaACWQd4uSFCg"
+          },
+          "tracks": {
+           "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:0SvYW67Kes52rOZziDO9uC"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02ee58b8ce747da91d69a862cc",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851ee58b8ce747da91d69a862cc",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273ee58b8ce747da91d69a862cc",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2017-06-23T00:00:00Z",
+           "precision": "DAY",
+           "year": 2017
+          },
+          "id": "0tzfI6NFJqcJkWb23R3lRZ",
+          "name": "OK Computer OKNOTOK 1997 2017",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "eOLSrQKaSwaJf9FXSIxmAw",
+           "shareUrl": "https://open.spotify.com/album/0tzfI6NFJqcJkWb23R3lRZ?si=eOLSrQKaSwaJf9FXSIxmAw"
+          },
+          "tracks": {
+           "totalCount": 23
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:0tzfI6NFJqcJkWb23R3lRZ"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e0271d7b02a0bbec1a10a88c587",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d0000485171d7b02a0bbec1a10a88c587",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b27371d7b02a0bbec1a10a88c587",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2016-11-18T00:00:00Z",
+           "precision": "DAY",
+           "year": 2016
+          },
+          "id": "1EPzf6NnFz2eoixDxTOMbg",
+          "name": "Supercollider / The Butcher",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "qEcYHarsS1--wJDuGvNuOA",
+           "shareUrl": "https://open.spotify.com/album/1EPzf6NnFz2eoixDxTOMbg?si=qEcYHarsS1--wJDuGvNuOA"
+          },
+          "tracks": {
+           "totalCount": 2
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:1EPzf6NnFz2eoixDxTOMbg"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02364b428d4c9b749e840f6de1",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851364b428d4c9b749e840f6de1",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273364b428d4c9b749e840f6de1",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2016-11-11T00:00:00Z",
+           "precision": "DAY",
+           "year": 2016
+          },
+          "id": "03JVw3rc0k5AbGVIIFGtGe",
+          "name": "Harry Patch (In Memory Of)",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "PHGnIJK3TgqksCVvPe7HnA",
+           "shareUrl": "https://open.spotify.com/album/03JVw3rc0k5AbGVIIFGtGe?si=PHGnIJK3TgqksCVvPe7HnA"
+          },
+          "tracks": {
+           "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:03JVw3rc0k5AbGVIIFGtGe"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e0229714d4269c664e606a3050b",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d0000485129714d4269c664e606a3050b",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b27329714d4269c664e606a3050b",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2016-05-16T00:00:00Z",
+           "precision": "DAY",
+           "year": 2016
+          },
+          "id": "7kbhOOk0mAzdy3NukjeoXF",
+          "name": "Spectre",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "U3ew0qY8SmioODcNkYGpOw",
+           "shareUrl": "https://open.spotify.com/album/7kbhOOk0mAzdy3NukjeoXF?si=U3ew0qY8SmioODcNkYGpOw"
+          },
+          "tracks": {
+           "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:7kbhOOk0mAzdy3NukjeoXF"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e0245643f5cf119cbc9d2811c22",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d0000485145643f5cf119cbc9d2811c22",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b27345643f5cf119cbc9d2811c22",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2016-05-08T00:00:00Z",
+           "precision": "DAY",
+           "year": 2016
+          },
+          "id": "2ix8vWvvSp2Yo7rKMiWpkg",
+          "name": "A Moon Shaped Pool",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "h5DvI4-dQFGRU0a5mT-P8w",
+           "shareUrl": "https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg?si=h5DvI4-dQFGRU0a5mT-P8w"
+          },
+          "tracks": {
+           "totalCount": 11
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:2ix8vWvvSp2Yo7rKMiWpkg"
+         }
+        ]
+       }
+      },
+      {
+       "releases": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02faffb14a464b3548703ccdc7",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851faffb14a464b3548703ccdc7",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273faffb14a464b3548703ccdc7",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2016-05-06T00:00:00Z",
+           "precision": "DAY",
+           "year": 2016
+          },
+          "id": "27Q0co2HcWQHrXffvt2GkI",
+          "name": "Daydreaming",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "-SAz4wUhRf2JWz15Zg1kwA",
+           "shareUrl": "https://open.spotify.com/album/27Q0co2HcWQHrXffvt2GkI?si=-SAz4wUhRf2JWz15Zg1kwA"
+          },
+          "tracks": {
+           "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:27Q0co2HcWQHrXffvt2GkI"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02eecd3a7ee08e329e6468f21a",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851eecd3a7ee08e329e6468f21a",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273eecd3a7ee08e329e6468f21a",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "isoString": "2016-05-06T00:00:00Z",
+           "precision": "DAY",
+           "year": 2016
+          },
+          "id": "62tg0OzUmgWC17mQF611qu",
+          "name": "Daydreaming",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "W9GqK0suR-OIPRXetZbauw",
+           "shareUrl": "https://open.spotify.com/album/62tg0OzUmgWC17mQF611qu?si=W9GqK0suR-OIPRXetZbauw"
+          },
+          "tracks": {
+           "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:62tg0OzUmgWC17mQF611qu"
+         }
+        ]
+       }
+      }
+     ],
+     "totalCount": 45
+    }
+   }
+  }
+ }
+}

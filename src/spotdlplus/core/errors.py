@@ -253,7 +253,7 @@ class EntityNotFound(SpotdlPlusError):
 class MetadataForbidden(SpotdlPlusError):
     code = 'META_FORBIDDEN'
     retry = Retry.NEVER
-    remedy = 'The metadata provider has this, but not for us. On Spotify that almost always means the playlist is private or collaborative. We sign in as an app, never as you, so we only ever see public things, and that includes your own private playlists. Set it to public (the playlist menu, "Make public") and run it again. If it already is public, run "spotdlp doctor" to check your credentials, then try a playlist you know is public to tell the two apart.'
+    remedy = 'The metadata provider has this, but not for us, and on Spotify that is one of two things. Either the playlist is private or collaborative: we sign in as an app, never as you, so we only ever see public things, your own private playlists included. Set it to public (the playlist menu, "Make public") and run it again. Or your Spotify app was created after February 2026, when Spotify stopped granting new apps playlist access; album and track reads still work, which is the tell, and a fresh app is the cause rather than the fix. For that one, use an app made before then, or the free web-player sign-in that needs no app at all. "spotdlp doctor" tells the two apart: if it also refuses the built-in public test playlist, the app is the problem, not your playlist.'
 
 
 @register
@@ -268,6 +268,54 @@ class BadRequest(SpotdlPlusError):
     code = 'META_BAD_REQUEST'
     retry = Retry.NEVER
     remedy = 'A provider rejected the shape of our request. Retrying would send the identical bytes and get the identical refusal, so we didn\'t. This one is our bug. The request and the response body are in the error context, please file it.'
+
+
+# ----------------------------------------------------------------------------
+# SPOTIFY WEB: the free sign-in, where the fragile parts live. Every remedy
+# points at bring-your-own-app, because that is the one move a stuck user can
+# make right now without waiting on me.
+# ----------------------------------------------------------------------------
+
+@register
+class SpotifyWebSecretStale(SpotdlPlusError):
+    code = 'SPOTIFY_WEB_SECRET_STALE'
+    retry = Retry.NEVER
+    remedy = 'The free Spotify sign-in broke because Spotify rotated the login secret it checks, and a fresh one didn\'t come through. Turn "spotify_secret_autofetch" on so the tool can grab the current one, or update spotdl+, or add your own free Spotify app credentials to skip the anonymous sign-in entirely. Run "spotdlp doctor" to see which of those applies.'
+
+
+@register
+class SpotifyWebSessionFailed(SpotdlPlusError):
+    code = 'SPOTIFY_WEB_SESSION_FAILED'
+    retry = Retry.BACKOFF
+    remedy = 'Couldn\'t open a session at open.spotify.com to start the free sign-in. Usually the network, sometimes Spotify changed the page shape. Check the connection and run "spotdlp doctor --network". If it keeps happening the fix is on me, or add your own Spotify app key to route around it.'
+
+
+@register
+class SpotifyWebTokenFailed(SpotdlPlusError):
+    code = 'SPOTIFY_WEB_TOKEN_FAILED'
+    retry = Retry.NEVER
+    remedy = 'The free Spotify token endpoint refused us for a reason that isn\'t the login secret, most likely it moved. Update spotdl+, or add your own Spotify app credentials to sign in the steady way.'
+
+
+@register
+class SpotifyWebClientTokenFailed(SpotdlPlusError):
+    code = 'SPOTIFY_WEB_CLIENTTOKEN_FAILED'
+    retry = Retry.BACKOFF
+    remedy = 'Couldn\'t get the client-token that pairs with the free access token. Without it Spotify walls the requests, so we stopped rather than march into that. Try again in a moment, or add your own Spotify app key.'
+
+
+@register
+class SpotifyWebWalled(SpotdlPlusError):
+    code = 'SPOTIFY_WEB_WALLED'
+    retry = Retry.AFTER
+    remedy = 'Spotify handed the free sign-in a multi-hour rate limit, which means the paired signature isn\'t being accepted or this IP is genuinely throttled. Wait it out, or add your own Spotify app credentials for higher, steadier limits.'
+
+
+@register
+class SpotifyWebQueryStale(SpotdlPlusError):
+    code = 'SPOTIFY_WEB_QUERY_STALE'
+    retry = Retry.NEVER
+    remedy = 'The free Spotify path talks to the web player\'s own API, which names each query by an id that Spotify rotates when it ships a build. This build\'s ids stopped being recognised and re-reading the current ones from the web player didn\'t take. Update spotdl+ to pick up the new ids, or add your own Spotify app credentials to use the steady API instead. "spotdlp doctor --spotify-web" shows which query broke.'
 
 
 @register

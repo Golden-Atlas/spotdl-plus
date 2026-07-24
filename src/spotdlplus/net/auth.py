@@ -96,6 +96,18 @@ class TokenProvider:
     def generation(self) -> int:
         return self._generation
 
+    # -- the request seam ----------------------------------------------------
+
+    def extra_headers(self) -> dict[str, str]:
+        '''
+        Headers a request carries beyond the bearer. Empty for a normal app
+        token, because that path only ever needed Authorization. The web-player
+        auth overrides this to add its client-token, because Spotify clamps a
+        bare bearer into a 20-hour wall and only lets the paired signature
+        through at a normal rate. The http client merges whatever this returns.
+        '''
+        return {}
+
     # -- the hot path --------------------------------------------------------
 
     def token(self) -> Token:

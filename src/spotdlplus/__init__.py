@@ -6,4 +6,4 @@ never assumes a terminal exists. It emits typed events, and whatever is listenin
 is not its problem.
 '''
 
-__version__ = '1.2.0'
+__version__ = '1.2.2'

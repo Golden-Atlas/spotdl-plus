@@ -1,0 +1,7 @@
+spotdl+ 1.2.2
+built:  2026-07-24 04:18 UTC
+git:    unknown
+python: 3.14.4
+
+artifacts:
+  spotdlplus-setup-1.2.2.exe  (95 MB)

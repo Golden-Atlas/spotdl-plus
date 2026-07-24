@@ -284,6 +284,14 @@ class HttpClient:
         self._limiter.acquire(host, cost)          # may raise RateLimited
 
         token = auth.token() if auth is not None else None
+        if auth is not None:
+            # Anything the auth wants alongside the bearer, like the web
+            # player's client-token. Empty for an app token, so this is a no-op
+            # on the path that shipped in 1.2.0. Merged once so both the first
+            # send and the 401 retry below carry it.
+            extra = auth.extra_headers()
+            if extra:
+                headers = {**(headers or {}), **extra}
         resp = self._send(method, url, params, headers, json, data, token, host, breaker)
 
         if resp.status == 401 and auth is not None and token is not None:

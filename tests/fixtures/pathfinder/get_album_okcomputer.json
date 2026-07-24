@@ -1,0 +1,1040 @@
+{
+ "data": {
+  "albumUnion": {
+   "__typename": "Album",
+   "copyright": {
+    "items": [
+     {
+      "text": "1997 XL Recordings Ltd",
+      "type": "C"
+     },
+     {
+      "text": "1997 XL Recordings Ltd",
+      "type": "P"
+     }
+    ],
+    "totalCount": 2
+   },
+   "courtesyLine": "",
+   "date": {
+    "isoString": "1997-05-28T00:00:00Z",
+    "precision": "DAY"
+   },
+   "isPreRelease": false,
+   "label": "XL Recordings",
+   "name": "OK Computer",
+   "playability": {
+    "playable": true,
+    "reason": "PLAYABLE"
+   },
+   "preReleaseEndDateTime": null,
+   "saved": false,
+   "sharingInfo": {
+    "shareId": "rsLXiqGoQHytKzNkVH4DQQ",
+    "shareUrl": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=rsLXiqGoQHytKzNkVH4DQQ"
+   },
+   "tracksV2": {
+    "items": [
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 287880
+       },
+       "name": "Airbag",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "103586262",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 1,
+       "uri": "spotify:track:7c378mlmubSu7NGkLFa4sN"
+      },
+      "uid": "a27ee133a088cd918441"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 387213
+       },
+       "name": "Paranoid Android",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "316494441",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 2,
+       "uri": "spotify:track:6LgJvl0Xdtc73RJ1mmpotq"
+      },
+      "uid": "9568fd544ad24f13dd15"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 267693
+       },
+       "name": "Subterranean Homesick Alien",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "116619504",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 3,
+       "uri": "spotify:track:2CVV8PtUYYsux8XOzWkCP0"
+      },
+      "uid": "8ffbe81e54505d32aec6"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 267186
+       },
+       "name": "Exit Music (For A Film)",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "489730193",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 4,
+       "uri": "spotify:track:0z1o5L7HJx562xZSATcIpY"
+      },
+      "uid": "13636a82d4c12375c00c"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 299560
+       },
+       "name": "Let Down",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "873017823",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 5,
+       "uri": "spotify:track:2fuYa3Lx06QQJAm0MjztKr"
+      },
+      "uid": "398be84991fd164a1c13"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 1
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 264066
+       },
+       "name": "Karma Police",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "881749097",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 6,
+       "uri": "spotify:track:63OQupATfueTdZMWTxW03A"
+      },
+      "uid": "7d3fb6e4c663a33476b2"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 117333
+       },
+       "name": "Fitter Happier",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "40571994",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 7,
+       "uri": "spotify:track:6wnmRxEbwUK7WLyUtiRuT7"
+      },
+      "uid": "474deb004319bf7579e6"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 230626
+       },
+       "name": "Electioneering",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "59186012",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 8,
+       "uri": "spotify:track:0gTRROuntlrPQ64W3J2Etv"
+      },
+      "uid": "053dd62507eb3fd82abc"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 285200
+       },
+       "name": "Climbing Up the Walls",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "80264719",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 9,
+       "uri": "spotify:track:2PDQReEXBViVwkrbQ34vd7"
+      },
+      "uid": "6bf7d7b95de2cc49177b"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 1
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 229120
+       },
+       "name": "No Surprises",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "1404968920",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 10,
+       "uri": "spotify:track:10nyNJ6zNy2YVYLrcwLccB"
+      },
+      "uid": "79e02c169f45f079dacc"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 258813
+       },
+       "name": "Lucky",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "100217545",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 11,
+       "uri": "spotify:track:14xj58ZexBaEaHARb11Cqs"
+      },
+      "uid": "9138cac92d484edd9258"
+     },
+     {
+      "track": {
+       "artists": {
+        "items": [
+         {
+          "profile": {
+           "name": "Radiohead"
+          },
+          "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb"
+         }
+        ]
+       },
+       "associationsV3": {
+        "videoAssociations": {
+         "totalCount": 0
+        }
+       },
+       "contentRating": {
+        "label": "NONE"
+       },
+       "discNumber": 1,
+       "duration": {
+        "totalMilliseconds": 326533
+       },
+       "name": "The Tourist",
+       "playability": {
+        "playable": true
+       },
+       "playcount": "63684022",
+       "relinkingInformation": null,
+       "saved": false,
+       "trackNumber": 12,
+       "uri": "spotify:track:1UuaWKypSkIHxFZD03zw4m"
+      },
+      "uid": "bb1c8aef0abb7e5da52b"
+     }
+    ],
+    "totalCount": 12
+   },
+   "type": "ALBUM",
+   "uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+   "visualIdentity": {
+    "squareCoverImage": {
+     "__typename": "VisualIdentityImage",
+     "extractedColorSet": {
+      "encoreBaseSetTextColor": {
+       "alpha": 255,
+       "blue": 216,
+       "green": 192,
+       "red": 152
+      },
+      "highContrast": {
+       "backgroundBase": {
+        "alpha": 255,
+        "blue": 108,
+        "green": 87,
+        "red": 50
+       },
+       "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 73,
+        "green": 54,
+        "red": 15
+       },
+       "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textSubdued": {
+        "alpha": 255,
+        "blue": 236,
+        "green": 211,
+        "red": 170
+       }
+      },
+      "higherContrast": {
+       "backgroundBase": {
+        "alpha": 255,
+        "blue": 76,
+        "green": 56,
+        "red": 18
+       },
+       "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 111,
+        "green": 90,
+        "red": 53
+       },
+       "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textBrightAccent": {
+        "alpha": 255,
+        "blue": 96,
+        "green": 215,
+        "red": 30
+       },
+       "textSubdued": {
+        "alpha": 255,
+        "blue": 236,
+        "green": 211,
+        "red": 170
+       }
+      },
+      "minContrast": {
+       "backgroundBase": {
+        "alpha": 255,
+        "blue": 181,
+        "green": 158,
+        "red": 119
+       },
+       "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 156,
+        "green": 133,
+        "red": 95
+       },
+       "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       },
+       "textSubdued": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       }
+      }
+     }
+    }
+   },
+   "watchFeedEntrypoint": null,
+   "artists": {
+    "items": [
+     {
+      "id": "4Z8W4fKeB5YxbusRsdQVPb",
+      "profile": {
+       "name": "Radiohead"
+      },
+      "sharingInfo": {
+       "shareUrl": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb?si=1_EJz5Z-RJy69t8kxztgFA"
+      },
+      "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+      "visuals": {
+       "avatarImage": {
+        "sources": [
+         {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4104fbd80f1f795728abbd59",
+          "width": 640
+         },
+         {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1784104fbd80f1f795728abbd59",
+          "width": 160
+         },
+         {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051744104fbd80f1f795728abbd59",
+          "width": 320
+         }
+        ]
+       }
+      }
+     }
+    ],
+    "totalCount": 1
+   },
+   "coverArt": {
+    "extractedColors": {
+     "colorDark": {
+      "hex": "#607B8B"
+     },
+     "colorLight": {
+      "hex": "#90B8D0"
+     },
+     "colorRaw": {
+      "hex": "#90B8D0"
+     }
+    },
+    "sources": [
+     {
+      "height": 300,
+      "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+      "width": 300
+     },
+     {
+      "height": 64,
+      "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+      "width": 64
+     },
+     {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "width": 640
+     }
+    ]
+   },
+   "discs": {
+    "items": [
+     {
+      "number": 1,
+      "tracks": {
+       "totalCount": 12
+      }
+     }
+    ],
+    "totalCount": 1
+   },
+   "releases": {
+    "items": [],
+    "totalCount": 0
+   },
+   "moreAlbumsByArtist": {
+    "items": [
+     {
+      "discography": {
+       "popularReleasesAlbums": {
+        "items": [
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 1997
+          },
+          "id": "6dVIqQ8qmQ5GBnJ9shOYGE",
+          "name": "OK Computer",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "DPNAimI_QRyWsCKSQdnYDw",
+           "shareUrl": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=DPNAimI_QRyWsCKSQdnYDw"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02ec548c00d3ac2f10be73366d",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851ec548c00d3ac2f10be73366d",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 1993
+          },
+          "id": "3gBVdu4a1MMJVMy6vwPEb8",
+          "name": "Pablo Honey",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "UPAiDD-ESBSNYcXXZnU8rA",
+           "shareUrl": "https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8?si=UPAiDD-ESBSNYcXXZnU8rA"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:3gBVdu4a1MMJVMy6vwPEb8"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851de3c04b5fc750b68899b20a9",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 2007
+          },
+          "id": "5vkqYmiPBYLaalcmjujWxK",
+          "name": "In Rainbows",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "gP-fn-xESMuu0a1K099o9w",
+           "shareUrl": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK?si=gP-fn-xESMuu0a1K099o9w"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:5vkqYmiPBYLaalcmjujWxK"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048519293c743fa542094336c5e12",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 1995
+          },
+          "id": "35UJLpClj5EDrhpNIi4DFg",
+          "name": "The Bends",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "UtOvjf_zR-m76rs5iFqGlw",
+           "shareUrl": "https://open.spotify.com/album/35UJLpClj5EDrhpNIi4DFg?si=UtOvjf_zR-m76rs5iFqGlw"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:35UJLpClj5EDrhpNIi4DFg"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e026c7112082b63beefffe40151",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048516c7112082b63beefffe40151",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2736c7112082b63beefffe40151",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 2000
+          },
+          "id": "6GjwtEZcfenmOf6l18N7T7",
+          "name": "Kid A",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "ndpziCiiRKmOqEshtEFRIQ",
+           "shareUrl": "https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7?si=ndpziCiiRKmOqEshtEFRIQ"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:6GjwtEZcfenmOf6l18N7T7"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02ee58b8ce747da91d69a862cc",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851ee58b8ce747da91d69a862cc",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273ee58b8ce747da91d69a862cc",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 2017
+          },
+          "id": "0tzfI6NFJqcJkWb23R3lRZ",
+          "name": "OK Computer OKNOTOK 1997 2017",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "QeBzHEJRTvWcMTk81cpNIg",
+           "shareUrl": "https://open.spotify.com/album/0tzfI6NFJqcJkWb23R3lRZ?si=QeBzHEJRTvWcMTk81cpNIg"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:0tzfI6NFJqcJkWb23R3lRZ"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e0245643f5cf119cbc9d2811c22",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d0000485145643f5cf119cbc9d2811c22",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b27345643f5cf119cbc9d2811c22",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 2016
+          },
+          "id": "2ix8vWvvSp2Yo7rKMiWpkg",
+          "name": "A Moon Shaped Pool",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "9SLZ4_a9RqC-lP1-gJSIoA",
+           "shareUrl": "https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg?si=9SLZ4_a9RqC-lP1-gJSIoA"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:2ix8vWvvSp2Yo7rKMiWpkg"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e020da53e8f58e59f28a79c10c7",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048510da53e8f58e59f28a79c10c7",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2730da53e8f58e59f28a79c10c7",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 2003
+          },
+          "id": "5mzoI3VH0ZWk1pLFR6RoYy",
+          "name": "Hail To the Thief",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "7ApBiyPfQS2ENie9OeizhQ",
+           "shareUrl": "https://open.spotify.com/album/5mzoI3VH0ZWk1pLFR6RoYy?si=7ApBiyPfQS2ENie9OeizhQ"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:5mzoI3VH0ZWk1pLFR6RoYy"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e02863e0e305637100311c91aa7",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d00004851863e0e305637100311c91aa7",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b273863e0e305637100311c91aa7",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 2001
+          },
+          "id": "1HrMmB5useeZ0F5lHrMvl0",
+          "name": "Amnesiac",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "EsGoO9xeTHGEPEa8OKpOfw",
+           "shareUrl": "https://open.spotify.com/album/1HrMmB5useeZ0F5lHrMvl0?si=EsGoO9xeTHGEPEa8OKpOfw"
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:1HrMmB5useeZ0F5lHrMvl0"
+         },
+         {
+          "coverArt": {
+           "sources": [
+            {
+             "height": 300,
+             "url": "https://i.scdn.co/image/ab67616d00001e023340ec817b195f40615cc647",
+             "width": 300
+            },
+            {
+             "height": 64,
+             "url": "https://i.scdn.co/image/ab67616d000048513340ec817b195f40615cc647",
+             "width": 64
+            },
+            {
+             "height": 640,
+             "url": "https://i.scdn.co/image/ab67616d0000b2733340ec817b195f40615cc647",
+             "width": 640
+            }
+           ]
+          },
+          "date": {
+           "year": 1992
+          },
+          "id": "1w1LIhUSQLKew0dYwiVX2q",
+          "name": "Creep EP",
+          "playability": {
+           "playable": true,
+           "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+           "shareId": "WplorPWWQvSg5KoZHQURVw",
+           "shareUrl": "https://open.spotify.com/album/1w1LIhUSQLKew0dYwiVX2q?si=WplorPWWQvSg5KoZHQURVw"
+          },
+          "type": "EP",
+          "uri": "spotify:album:1w1LIhUSQLKew0dYwiVX2q"
+         }
+        ]
+       }
+      }
+     }
+    ]
+   }
+  }
+ }
+}

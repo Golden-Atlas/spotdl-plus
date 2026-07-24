@@ -4,6 +4,28 @@ Every shipped build's exact installer lives in `releases/<version>/` with a
 SHA-256 and a build note. This file is the readable history of what changed.
 Newest first.
 
+## 1.2.2 - groundwork for the free path
+
+Mostly under the hood, and nothing a keyed run does changes. This is the work
+toward running spotdl+ without a paid Spotify app, which matters more now that
+Spotify stopped letting newly-made apps read playlists at all in early 2026.
+
+- **The free sign-in reads end to end, opt-in.** Set `spotify_auth = "anon"` and
+  it pulls albums, tracks, artists, playlists, and search the way the web player
+  does, no account and no Premium. It talks to Spotify's own web API instead of
+  the endpoints Spotify deleted, and keys tracks on their Spotify id, so full
+  ISRC dedupe still wants your own key. `spotdlp doctor --spotify-web` proves the
+  whole path on your own network.
+- **`doctor` stopped giving backwards advice about playlists.** A friend on a
+  fresh app kept getting playlists refused, and the remedy said "make a new app",
+  which is the exact thing that breaks it. Spotify locked new apps out of
+  playlists in Feb 2026 and grandfathered the old ones, so a fresh app cannot
+  help. It says that now, and points at a pre-2026 app or the free path instead.
+- **`spotdlp -v` lists every command, grouped**, and `--help` got tighter and
+  more accurate.
+
+Nothing on the keyed download path changed. 562 tests, green.
+
 ## 1.2.0 - the living archive, whole
 
 The capstone. 1.1.3 through 1.1.8 shipped one piece at a time and this rolls
